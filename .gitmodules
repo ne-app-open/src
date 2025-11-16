@@ -1,6 +1,3 @@
-[submodule "dev/photon"]
-	path = dev/photon
-	url = git@github.com:nekernel-org/photon.git
 [submodule "dev/nekernel"]
 	path = dev/nekernel
 	url = git@github.com:nekernel-org/nekernel.git
@@ -13,9 +10,6 @@
 [submodule "dev/nebuild"]
 	path = dev/nebuild
 	url = git@github.com:nekernel-org/nebuild.git
-[submodule "dev/open64x0"]
-	path = dev/open64x0
-	url = git@github.com:nekernel-org/open64x0.git
 [submodule "docs/openknowledge"]
 	path = docs/openknowledge
 	url = git@github.com:nekernel-org/openknowledge.git
