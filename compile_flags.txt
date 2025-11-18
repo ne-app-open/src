@@ -1,0 +1,8 @@
+-Ilib
+-std=c++20
+-xc++
+-Idev/neboot/
+-Idev/nebuild/dev
+-Idev/nekernel/dev
+-Idev/necti/dev
+-Ilib/libocl/dev/
