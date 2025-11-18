@@ -1,4 +1,4 @@
-# The Superproject
+# The SuperNE
 
 ## Brief
 
