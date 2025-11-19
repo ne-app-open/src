@@ -13,3 +13,6 @@
 [submodule "docs/openknowledge"]
 	path = docs/openknowledge
 	url = git@github.com:nekernel-org/openknowledge.git
+[submodule "lib/libocl"]
+	path = lib/libocl
+	url = git@github.com:amlel-el-mahrouss/ocl.git
