@@ -1,8 +1,6 @@
 <img src="./meta/readme-logo.png"/>
 
-## Brief
-
-A centralized repository made to hold the NeKernel components together. Acting as the software distribution for NeKernel.
+This repository was made to put the NeKernel components together. Acting as the software distribution for NeKernel.
 
 ## Why?
 
