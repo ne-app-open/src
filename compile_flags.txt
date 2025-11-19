@@ -6,3 +6,4 @@
 -Idev/nekernel/dev
 -Idev/necti/dev
 -Ilib/libocl/dev/
+-I/opt/homebrew/Cellar/boost/1.89.0/include
