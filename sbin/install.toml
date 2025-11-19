@@ -1,6 +1,6 @@
 compiler_path = "clang++"
 compiler_std = "c++20"
-headers_path = [ "lib" ]
+headers_path = [ "../lib/libocl/dev/", "/opt/homebrew/Cellar/boost/1.89.0/include" ]
 sources_path = [ "install.cc" ]
 output_name = "install.o"
 compiler_flags = [ "-fPIC" ]
