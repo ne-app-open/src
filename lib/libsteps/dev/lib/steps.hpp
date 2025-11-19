@@ -7,6 +7,7 @@ Copyright (C) 2025, Amlal El Mahrouss, licensed under the Apache 2.0 license.
 #pragma once
 
 #include <libsteps/dev/lib/defines.hpp>
+#include <cstring>
 
 #define kStepsExtension ".stp"
 #define kStepsStrLen (256U)
