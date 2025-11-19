@@ -8,9 +8,11 @@ Copyright (C) 2025, Amlal El Mahrouss, licensed under the Apache 2.0 license.
 
 int main(int argc, char** argv)
 {
-    ocl::io::print("install: installing target system...\n");
+    ocl::io::print("install: Installing distribution...\n");
 
     /// AMLALE: TODO: implement the install logic here.
+    
+    ocl::io::print("install: Done!\n");
 
-    return 0;
+    return EXIT_SUCCESS;
 }

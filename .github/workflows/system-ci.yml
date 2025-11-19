@@ -1,0 +1,22 @@
+name: System CI
+
+on:
+  push:
+    branches: [ "stable" ]
+  pull_request:
+    branches: [ "stable" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Install Packages
+      run: sudo apt-get install libboost-all-dev
+    - name: Build SuperNE
+      run: |
+        cd sbin
+        mkdir build
+        cd build
