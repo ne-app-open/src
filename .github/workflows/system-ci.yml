@@ -17,6 +17,4 @@ jobs:
       run: sudo apt-get install libboost-all-dev
     - name: Build SuperNE
       run: |
-        cd sbin
-        mkdir build
-        cd build
+        cd tools
