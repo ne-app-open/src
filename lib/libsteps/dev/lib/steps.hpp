@@ -6,8 +6,9 @@ Copyright (C) 2025, Amlal El Mahrouss, licensed under the Apache 2.0 license.
 
 #pragma once
 
-#include <libsteps/dev/lib/defines.hpp>
 #include <cstring>
+#include <fstream>
+#include <libsteps/dev/lib/defines.hpp>
 
 #define kStepsExtension ".stp"
 #define kStepsStrLen (256U)
@@ -16,8 +17,8 @@ Copyright (C) 2025, Amlal El Mahrouss, licensed under the Apache 2.0 license.
 #define kStepsMagicLen (4U)
 #define kStepsVersion (0x0100)
 
-namespace steps {
-struct record final {
+namespace ocl::steps {
+struct __attribute__((packed)) record final {
   ocl::char_type magic[kStepsMagicLen] = {kStepsMagic[0], kStepsMagic[1],
                                           kStepsMagic[2], kStepsMagic[3]};
   ocl::char_type name[kStepsStrLen] = "";
@@ -28,7 +29,21 @@ struct record final {
   int32_t check_page = 0, eula_page = 0;
 };
 
+inline bool is_valid(record& r) noexcept {
+  return r.pages > 1 && r.version > 0 && strcmp(r.magic, kStepsMagic) == 0;
+}
+
 namespace operators {
+inline std::ifstream &operator>>(std::ifstream &f, record &r) {
+  f.read((char *)&r, sizeof(r));
+  return f;
+}
+
+inline std::ofstream &operator<<(std::ofstream &f, record &r) {
+  f.write((char *)&r, sizeof(r));
+  return f;
+}
+
 /// =========================================================== ///
 /// @brief Equal operator for steps records.
 /// =========================================================== ///
@@ -43,4 +58,4 @@ inline bool operator!=(const record &r, const record &l) {
   return (std::strncmp(r.magic, l.magic, kStepsMagicLen) > 0);
 }
 } // namespace operators
-} // namespace steps
+} // namespace ocl::steps
