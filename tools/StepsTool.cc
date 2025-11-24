@@ -1,11 +1,11 @@
 /* ===========================================================
 
-Copyright (C) 2025, Amlal El Mahrouss, licensed under the Apache 2.0 license.
+  Copyright (C) 2025 Amlal El Mahrouss, Licensed under the Apache 2.0 license
 
 =========================================================== */
 
-#include <libocl/dev/lib/io/print.hpp>
-#include <libsteps/dev/lib/steps.hpp>
+#include <io/print.hpp>
+#include <steps/steps.hpp>
 
 /// =========================================================== ///
 /// Use operators from steps namespace to compare steps records.
@@ -25,7 +25,8 @@ int main(void) {
 
   file >> steps;
 
-  if (!ocl::steps::is_valid(steps)) return EXIT_FAILURE;
+  if (!ocl::steps::is_valid(steps))
+    return EXIT_FAILURE;
 
   /// AMLALE: Read steps from file and process them.
 

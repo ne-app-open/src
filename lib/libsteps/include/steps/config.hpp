@@ -10,4 +10,8 @@ Copyright (C) 2025, Amlal El Mahrouss, licensed under the Apache 2.0 license.
 #undef OCL_USE_UTF8
 #endif
 
-#include <lib/core/includes.hpp>
+#include <core/includes.hpp>
+
+#include <cstring>
+#include <fstream>
+

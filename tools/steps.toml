@@ -1,7 +1,7 @@
 compiler_path = "clang++"
 compiler_std = "c++20"
 headers_path = [ "../lib", "../lib/libocl/dev/", "/opt/homebrew/Cellar/boost/1.89.0/include" ]
-sources_path = [ "steps.cc" ]
+sources_path = [ "StepsTool.cc" ]
 output_name = "steps.o"
 compiler_flags = [ "-fPIC" ]
 cpp_macros = [ "__NE_STEPS__" ]
