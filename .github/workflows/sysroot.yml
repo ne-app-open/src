@@ -1,4 +1,4 @@
-name: System CI
+name: SysRoot CI
 
 on:
   push:
@@ -15,5 +15,5 @@ jobs:
     - uses: actions/checkout@v4
     - name: Install Packages
       run: sudo apt-get install libboost-all-dev && sudo curl https://github.com/nekernel-org/nebuild/releases/download/v0.0.6-apple-m1/nebuild-debian -o /bin/nebuild && sudo chmod +x /bin/nebuild
-    - name: Build System
-      run: cd tools && nebuild steps.toml
+    - name: Build SysRoot
+      run: cd tools && nebuild steps.toml && ./steps-sysroot

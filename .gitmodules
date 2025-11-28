@@ -1,18 +1,9 @@
-[submodule "dev/nekernel"]
-	path = dev/nekernel
+[submodule "src/kernel"]
+	path = src/kernel
 	url = git@github.com:nekernel-org/nekernel.git
-[submodule "dev/necti"]
-	path = dev/necti
-	url = git@github.com:nekernel-org/necti.git
-[submodule "dev/neboot"]
-	path = dev/neboot
-	url = git@github.com:nekernel-org/neboot.git
-[submodule "dev/nebuild"]
-	path = dev/nebuild
+[submodule "src/build"]
+	path = src/build
 	url = git@github.com:nekernel-org/nebuild.git
-[submodule "docs/openknowledge"]
-	path = docs/openknowledge
-	url = git@github.com:nekernel-org/openknowledge.git
-[submodule "lib/libocl"]
-	path = lib/libocl
-	url = git@github.com:amlel-el-mahrouss/ocl.git
+[submodule "src/c++tools"]
+	path = src/c++tools
+	url = git@github.com:nekernel-org/necti.git

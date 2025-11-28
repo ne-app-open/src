@@ -1,4 +1,4 @@
-<img src="./meta/readme-logo.png"/>
+<img src="./meta/png/readme-logo.png"/>
 
 The system repository was developed to hold the NeKernel components together. Acting as the software distribution for NeKernel.
 
@@ -12,8 +12,7 @@ The purpose is the following:
 
 ## Notes
 
-- `dev` stands for develop, not the device directory.
-- `include` is for libSystem and other installed library headers.
+- `include` is for the system library (libSystem) and other third-party installed libraries headers.
 - `devices` and `network` are for network and standard devices on NeKernel.
 
 ###### Copyright 2025 - Amlal El Mahrouss & NeKernel.org Contributors. Licensed under Apache 2.0.
