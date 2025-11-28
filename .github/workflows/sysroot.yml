@@ -16,4 +16,4 @@ jobs:
     - name: Install Packages
       run: sudo apt-get install libboost-all-dev && sudo curl https://github.com/nekernel-org/nebuild/releases/download/v0.0.6-apple-m1/nebuild-debian -o /bin/nebuild && sudo chmod +x /bin/nebuild
     - name: Build SysRoot
-      run: cd tools && ls && nebuild steps.toml && ./steps-sysroot
+      run: cd tools && ls -la && nebuild steps.toml
