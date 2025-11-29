@@ -1,6 +1,3 @@
-# This CITATION.cff file was generated with cffinit.
-# Visit https://bit.ly/cffinit to generate yours today!
-
 cff-version: 1.2.0
 title: NeKernel.org Operating System in C++
 message: The Operating System of NeKernel.org
@@ -13,7 +10,7 @@ identifiers:
   - type: url
     value: 'https://nekernel.org'
     description: NeKernel Website.
-repository-code: 'https://github.com/nekernel-org/system'
+repository-code: 'https://github.com/nekernel-org/sysroot'
 url: 'https://nekernel.org'
 abstract: >-
   This is NeKernel.org's Operating System, authored
