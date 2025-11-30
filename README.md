@@ -1,20 +1,13 @@
-<img src="./meta/png/logo.png"/>
+# SysRoot
 
-The system repository was developed to hold the NeKernel components together. 
-
-Acting as the software distribution for NeKernel.
+Acting as the software distribution for NeKernel. this was developed to hold the its components and sysroot altogether. 
 
 ## Reasons:
 
-There is three main reasons for this repository:
+There is three main reasons for this repository's existence:
 
-- Hold the codebase in a single repository, it is way more maintable than a fragmented one.
-- Easier paths based on the `system` path, i.e (../kernel -> /system/src/kernel)
-- One central system release is easier than releasing each component on its own.
+- Hold the codebase in a single repository, that is way more maintable than a fragmented one.
+- Easier path resolutions based on a virtual root path, i.e (../kernel -> /src/kernel)
+- Making releases cycle much more easier to document and do than before.
 
-## Notes
-
-- `include` is for the system libraries (libSystem, libDDK) and other third-party installed libraries headers.
-- `devices` and `network` are for network and standard devices on NeKernel.
-
-###### Copyright 2025, Amlal El Mahrouss & NeKernel.org Contributors. Licensed under Apache 2.0.
+###### Copyright 2025, Amlal El Mahrouss & NeKernel.org Authors. Licensed under Apache 2.0.
