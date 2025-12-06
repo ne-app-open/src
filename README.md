@@ -2,7 +2,7 @@
 
 Acting as the software distribution for NeKernel. this was developed to hold the its components and sysroot altogether. 
 
-## Reasons:
+## The SysRoot Rationale:
 
 There is three main reasons for this repository's existence:
 
