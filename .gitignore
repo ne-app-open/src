@@ -11,6 +11,8 @@ xcuserdata/
 # EPM Image
 *.eimg
 
+mingw-w64-headers/
+
 */xcuserdata/*
 *.xcworkspacedata
 

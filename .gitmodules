@@ -10,3 +10,6 @@
 [submodule "src/boot"]
 	path = src/boot
 	url = git@github.com:nekernel-org/neboot.git
+[submodule "toolchains/mingw-w64-nekernel"]
+	path = toolchains/mingw-w64-nekernel
+	url = git@github.com:nekernel-org/mingw-w64.git
