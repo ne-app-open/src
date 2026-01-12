@@ -12,4 +12,4 @@
 	url = git@github.com:nekernel-org/neboot.git
 [submodule "toolchains/mingw-w64-nekernel"]
 	path = toolchains/mingw-w64-nekernel
-	url = git@github.com:nekernel-org/mingw-w64.git
+	url = git@github.com:nekernel-org/mingw-n64.git
