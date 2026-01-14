@@ -4,12 +4,12 @@
 [submodule "src/build"]
 	path = src/build
 	url = git@github.com:nekernel-org/nebuild.git
-[submodule "src/c++tools"]
-	path = src/c++tools
-	url = git@github.com:nekernel-org/nectar.git
 [submodule "src/boot"]
 	path = src/boot
 	url = git@github.com:nekernel-org/neboot.git
 [submodule "toolchains/mingw-w64-nekernel"]
 	path = toolchains/mingw-w64-nekernel
 	url = git@github.com:nekernel-org/mingw-n64.git
+[submodule "src/nectar"]
+	path = src/nectar
+	url = git@github.com:nekernel-org/nectar.git
