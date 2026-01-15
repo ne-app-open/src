@@ -1,19 +1,19 @@
 cff-version: 1.2.0
-title: NeKernel.org Operating System in C++
-message: The NeKernel Operating System.
+title: NeKernel.org System
+message: The NeKernel.org Modular System
 type: software
 authors:
   - given-names: Amlal
     family-names: El Mahrouss
-    email: aelmahrouss@acm.org
+    email: amlal@nekernel.org
 identifiers:
   - type: url
     value: 'https://nekernel.org'
     description: NeKernel.org
-repository-code: 'https://github.com/nekernel-org/sysroot'
+repository-code: 'https://github.com/nekernel-org/src'
 url: 'https://nekernel.org'
 abstract: >-
-  This is the NeKernel.org Operating System.
+  This is the NeKernel.org Modular System. Built upon WG01 and its related principles.
 keywords:
   - kernel
   - operating-system
@@ -22,4 +22,6 @@ keywords:
   - firmware
   - os
   - cpp
+  - systems
+  - pl
 license: Apache-2.0
