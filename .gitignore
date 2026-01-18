@@ -2,6 +2,8 @@ syntax: glob
 
 xcuserdata/
 
+.claude
+
 *.efi
 *.hmap
 *.ipa
