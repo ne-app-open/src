@@ -13,3 +13,6 @@
 [submodule "src/nectar"]
 	path = src/nectar
 	url = git@github.com:nekernel-org/nectar.git
+[submodule "papers"]
+	path = papers
+	url = git@github.com:nekernel-org/draft.git
