@@ -16,3 +16,6 @@
 [submodule "papers"]
 	path = papers
 	url = git@github.com:nekernel-org/draft.git
+[submodule "toolchains/mingw-w64-gcc"]
+	path = toolchains/mingw-w64-gcc
+	url = git@github.com:nekernel-org/gcc-n64.git
