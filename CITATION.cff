@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 title: NeKernel.org System
-message: The NeKernel.org Modular System
+message: The NeKernel.org System
 type: software
 authors:
   - given-names: Amlal
@@ -13,7 +13,7 @@ identifiers:
 repository-code: 'https://github.com/nekernel-org/src'
 url: 'https://nekernel.org'
 abstract: >-
-  This is the NeKernel.org Modular System. Built upon WG01 and its related principles.
+  This is the NeKernel.org System. Built upon its papers and frameworks.
 keywords:
   - kernel
   - operating-system
