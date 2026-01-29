@@ -1,13 +1,8 @@
 #!/usr/bin/perl -w
 
-use strict;
-use Cwd;
+require './libconf.pl';
 
-if ($ENV{USER} ne "root") {
-    die "You must be root to run this script.\n";
-}
-
-system("sh", "git", "submodule", "update", "--init", "--recursive");
+libconf->new();
 
 chdir("./toolchains/mingw-w64-gcc/") or die "Cannot change directory: $!";
 
