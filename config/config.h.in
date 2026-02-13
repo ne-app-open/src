@@ -1,0 +1,16 @@
+// Copyright 2026, Amlal El Mahrouss (amlal@nekernel.org)
+// Licensed under the Apache License, Version 2.0 (see LICENSE file)
+// Official repository: https://github.com/nekernel-org/src
+
+#pragma once
+
+#include @_TYPES_INCLUDE@
+
+#define _ARCH @_ARCH_VER@
+#define _SUBSYSTEM_NET @_NET_VER@
+#define _SUBSYSTEM_DDK @_DDK_VER@
+#define _SUBSYSTEM_SYS @_SYS_VER@
+#define _NEKERNEL @_NEKERNEL_VER@
+
+
+

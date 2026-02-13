@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 
-require './libconf.pl';
+require './tools/libconf.pl';
 
 libconf->new();
 
