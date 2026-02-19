@@ -1,6 +1,5 @@
-# Getting Started:
-
-## The Modules:
+# Getting Started: The Modules
+## Abstract:
 
 - `kernel`: The NeKernel/BootZ Module.
 - `nectar`: The Toolchain/PL Module.
