@@ -9,9 +9,21 @@
   </p>
 </div>
 
-This is the software distribution of NeKernel.org
+## Abstract:
 
-## The Rationale:
+This is the software distribution of NeKernel.org. Designed the contain all of the stack together. Facilities are provided to build compiler toolchains as well.
+
+## Getting Started:
+
+Please clone the repository using Git:
+
+```sh
+git clone --recurse-submodules -j8 git@github.com:nekernel-org/src.git
+```
+
+And 
+
+## Rationale:
 
 There is three main reasons for this repository's existence:
 
