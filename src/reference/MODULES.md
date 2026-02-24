@@ -1,8 +1,11 @@
 # Getting Started: The Modules
+
+We update quite regularly those modules.
+
 ## Abstract:
 
-- `kernel`: The NeKernel/BootZ Module.
-- `nectar`: The Toolchain/PL Module.
-- `boot`: The Firmware Module.
-- `nebuild`: The Build System Module.
+- `kernel`: The NeKernel System Module.
+- `nectar`: The Nectar Toolchain/PL Module.
+- `boot`: The NeBoot Firmware Module.
+- `nebuild`: The NeBuild Build System Module.
 

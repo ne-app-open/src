@@ -4,5 +4,5 @@
 
 #pragma once
 
-#include @_NESTD_PRELUDE@
-#include @_NESTD_PATH@
+#include <system/config.hpp>
+#include @_NEKERNEL_SYSTEMKIT_PATH@
