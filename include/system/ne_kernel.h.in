@@ -5,4 +5,4 @@
 #pragma once
 
 #include <system/config.hpp>
-#include @_NEKERNEL_SYSTEMKIT_PATH@
+#include <libSystem/SystemKit/System.h>

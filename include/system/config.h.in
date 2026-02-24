@@ -4,13 +4,14 @@
 
 #pragma once
 
-#include @_TYPES_INCLUDE@
-
 #define _ARCH @_ARCH_VER@
 #define _SUBSYSTEM_NET @_NET_VER@
 #define _SUBSYSTEM_DDK @_DDK_VER@
 #define _SUBSYSTEM_SYS @_SYS_VER@
 #define _NEKERNEL @_NEKERNEL_VER@
 
-
+class @_ARCH_VTERMINAL@;
+class @_ARCH_VDEVICE@;
+class @_ARCH_VSOCKET@;
+class @_ARCH_VFILE@;
 
