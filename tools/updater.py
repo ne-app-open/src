@@ -11,7 +11,8 @@ if __name__ == '__main__':
     system("cd libs && cd nectar && git pull && cd ..")
     system("cd libs && cd build && git pull && cd ..")
     system("cd libs && cd boot && git pull && cd ..")
-    system("git add src/kernel src/nectar src/build src/boot")
+    system("cd papers && git pull")
+    system("git add src/kernel src/nectar papers src/build src/boot")
     system("git commit -s -S")
 
 
