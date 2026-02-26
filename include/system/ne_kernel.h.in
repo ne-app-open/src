@@ -4,5 +4,5 @@
 
 #pragma once
 
-#include <system/config.hpp>
+#include <system/config.h>
 #include <libSystem/SystemKit/System.h>
