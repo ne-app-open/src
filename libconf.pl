@@ -11,7 +11,13 @@ sub new() {
         die "You must be root to run this script.\n";
     }
 
-    system("sh", "git", "submodule", "update", "--init", "--recursive") or die "Git error: $!";
+    system("sh", "git", "submodule", "update", "--init", "--recursive") or die "git: error: $!";
+
+}
+
+sub exit() {
+
+    exit;
 
 }
 
