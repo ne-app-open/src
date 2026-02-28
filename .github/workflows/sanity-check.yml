@@ -1,0 +1,19 @@
+name: Ne.org Build (SANITY)
+
+on:
+  push:
+    branches: [ "develop" ]
+  pull_request:
+    branches: [ "develop" ]
+
+env:
+  BUILD_TYPE: SANITY
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Attempt NeBuild
+      run: sudo curl https://github.com/nekernel-org/nebuild/releases/download/v0.0.6-apple-m1/nebuild-debian -o sanity-test
