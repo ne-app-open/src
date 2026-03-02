@@ -10,7 +10,7 @@ identifiers:
   - type: url
     value: 'https://nekernel.org'
     description: NeKernel.org
-repository-code: 'https://github.com/nekernel-org/src'
+repository-code: 'https://github.com/ne-foss-org/src'
 url: 'https://nekernel.org'
 abstract: >-
   This is the NeKernel.org System. Built upon its papers and frameworks.
