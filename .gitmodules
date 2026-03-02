@@ -1,21 +1,21 @@
 [submodule "src/kernel"]
 	path = src/kernel
-	url = git@github.com:nekernel-org/nekernel.git
+	url = git@github.com:ne-foss-org/nekernel.git
 [submodule "src/build"]
 	path = src/build
-	url = git@github.com:nekernel-org/nebuild.git
+	url = git@github.com:ne-foss-org/nebuild.git
 [submodule "src/boot"]
 	path = src/boot
-	url = git@github.com:nekernel-org/neboot.git
+	url = git@github.com:ne-foss-org/neboot.git
 [submodule "toolchains/mingw-w64-nekernel"]
 	path = toolchains/mingw-w64-nekernel
-	url = git@github.com:nekernel-org/mingw-n64.git
+	url = git@github.com:ne-foss-org/mingw-n64.git
 [submodule "src/nectar"]
 	path = src/nectar
-	url = git@github.com:nekernel-org/nectar.git
+	url = git@github.com:ne-foss-org/nectar.git
 [submodule "papers"]
 	path = papers
-	url = git@github.com:nekernel-org/draft.git
+	url = git@github.com:ne-foss-org/draft.git
 [submodule "toolchains/mingw-w64-gcc"]
 	path = toolchains/mingw-w64-gcc
-	url = git@github.com:nekernel-org/gcc-n64.git
+	url = git@github.com:ne-foss-org/gcc-n64.git
