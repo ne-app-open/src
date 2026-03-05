@@ -6,7 +6,7 @@
 	url = git@github.com:ne-foss-org/nebuild.git
 [submodule "src/boot"]
 	path = src/boot
-	url = git@github.com:ne-foss-org/neboot.git
+	url = git@github.com:ne-foss-org/boot.git
 [submodule "toolchains/mingw-w64-nekernel"]
 	path = toolchains/mingw-w64-nekernel
 	url = git@github.com:ne-foss-org/mingw-n64.git
