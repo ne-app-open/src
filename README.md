@@ -9,6 +9,12 @@
   </p>
 </div>
 
+## Helping:
+
+Love our work? Give us a star!
+
+![GitHub Repo stars](https://img.shields.io/github/stars/ne-foss-org/ne_system)
+
 ## Abstract:
 
 This is the system distribution of Ne.org. Designed the contain all of the stack together. Facilities are provided to build compiler toolchains as well.
