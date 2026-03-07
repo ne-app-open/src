@@ -9,6 +9,13 @@
   </p>
 </div>
 
+## Primers:
+
+The primers are available at:
+
+- https://primer.src.nekernel.org
+- https://primer.nectar.nekernel.org
+
 ## Helping:
 
 Love our work? Give us a star!
