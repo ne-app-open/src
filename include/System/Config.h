@@ -4,5 +4,11 @@
 
 #pragma once
 
-#include <system/config.h>
-#include <libSystem/SystemKit/System.h>
+#define _ARCH __ne_arch
+
+#define _SUBSYSTEM_NET 0x1000
+#define _SUBSYSTEM_DDK 0x1000
+#define _SUBSYSTEM_SYS 0x1000
+#define _NEKERNEL 202603
+
+#include <CoreFoundation.fwrk/headers/Foundation.h>
