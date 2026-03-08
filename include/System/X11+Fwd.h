@@ -8,4 +8,8 @@
 
 /// @brief This file forward declares X11 types.
 
+typedef uint32_t WINDOW;
+typedef uint32_t CURSOR;
+typedef uint32_t FONT;
+
 
