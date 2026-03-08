@@ -1,4 +1,4 @@
-# __ne_arch: Architecture Identification Macro.
+# __ne_arch: The architecture Identification Macro.
 
 ## Abstract:
 

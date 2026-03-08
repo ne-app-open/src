@@ -1,6 +1,6 @@
 #! /bin/sh
 
-python3 ./tools/__init__.py
+python3 ./updater/__init__.py
 
 
 
