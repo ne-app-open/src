@@ -31,7 +31,7 @@ This is the system distribution of Ne.org. Designed the contain all of the stack
 Please clone the repository using Git:
 
 ```sh
-git clone --recurse-submodules -j8 git@github.com:ne-foss-org/src.git
+git clone --recurse-submodules -j8 git@github.com:ne-foss-org/ne_system.git
 ```
 
 And 
