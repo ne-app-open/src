@@ -19,6 +19,8 @@ jobs:
       run: sudo curl https://git.src.nekernel.org/nebuild/releases/download/v0.0.6-apple-m1/nebuild-debian -o /usr/bin/nebuild && sudo chmod +x /usr/bin/nebuild
     - name: Check NeBuild
       run: nebuild -v
+    - name: Install QEMU-IMG
+      run: sudo apt update && sudo apt install qemu-img
     - name: Attempt Kernel Setup
       run: mkdir tmp && git clone https://github.com/ne-foss-org/kernel.git tmp/kernel && cd tmp/kernel && sudo ./scripts/setup_x64_project.sh
       
