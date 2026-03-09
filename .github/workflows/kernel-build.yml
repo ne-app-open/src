@@ -20,5 +20,5 @@ jobs:
     - name: Check NeBuild
       run: nebuild -v
     - name: Attempt Kernel Setup
-      run: mkdir tmp && git clone https://git.src.nekernel.org/kernel tmp/kernel && sudo ./tmp/kernel/scripts/setup_x64_project.sh
+      run: mkdir tmp && git clone https://git.src.nekernel.org/kernel.git tmp/kernel && sudo ./tmp/kernel/scripts/setup_x64_project.sh
       
