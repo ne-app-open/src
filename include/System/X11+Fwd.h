@@ -4,12 +4,11 @@
 
 #pragma once
 
+// NeSystem Header.
 #include <System/Ne.h>
 
-/// @brief This file forward declares X11 types.
+// Defs of the X11 protocol.
+#include <System/X11/Imports.h>
 
-typedef SInt32 WINDOW;
-typedef SInt32 CURSOR;
-typedef SInt32 FONT;
-
-
+// XDG' extensions of the X11 protocol.
+#include <System/X11/Ext/Imports.h>
