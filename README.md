@@ -16,15 +16,19 @@ The primers are available at:
 - https://primer.src.nekernel.org
 - https://primer.nectar.nekernel.org
 
-## Helping:
+## Love the work?
 
 Love our work? Give us a star!
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/ne-foss-org/ne_system)
 
-## Abstract:
+## Description:
 
-This is the system distribution of Ne.org. Designed the contain all of the stack together. Facilities are provided to build compiler toolchains as well.
+This is the system distribution of Ne.org. 
+
+Designed the contain all of the stack together. 
+
+It facilities are provided to build compiler toolchains as well.
 
 ## Getting Started:
 
@@ -34,7 +38,7 @@ Please clone the repository using Git:
 git clone --recurse-submodules -j8 git@github.com:ne-foss-org/ne_system.git
 ```
 
-And 
+And have a look at the wiki, docs, and primers. They have valuable resources to get started.
 
 ## Rationale:
 
