@@ -4,11 +4,3 @@
 
 #pragma once
 
-// NeSystem Header.
-#include <System/Ne.h>
-
-// Defs of the X11 protocol.
-#include <System/X11/Imports.h>
-
-// XDG' extensions of the X11 protocol.
-#include <System/X11/Ext/Imports.h>
