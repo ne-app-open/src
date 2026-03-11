@@ -62,4 +62,4 @@ Please follow the the tutorials in `/src/reference` to get started.
 
 We have a [discord](https://discord.gg/uD76Qweght), join us! [https://discord.gg/uD76Qweght](https://discord.gg/uD76Qweght)
 
-###### Copyright 2025, Amlal El Mahrouss & Ne.org Authors. Licensed under Apache 2.0.
+###### Copyright 2025-2026, Amlal El Mahrouss & Ne.org Authors. Licensed under Apache 2.0.
