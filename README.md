@@ -18,7 +18,7 @@ The primers are available at:
 
 ## Love the work?
 
-Love our work? Give us a star!
+Give us a star on GitHub!
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/ne-foss-org/ne_system)
 
