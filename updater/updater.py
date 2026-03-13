@@ -1,5 +1,6 @@
 # Copyright 2026, Amlal El Mahrouss and Ne.org contributors.
-# Open C++ Libraries is licensed under BSL-1.0
+# NeSystem is licensed under Apache-2.0.
+# SPDX-Identifier: Apache-2.0
 
 from os import system
 

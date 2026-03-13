@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-title: NeKernel.org System
-message: The NeKernel.org System
+title: Ne.org System
+message: The Ne.org System
 type: software
 authors:
   - given-names: Amlal
@@ -9,14 +9,16 @@ authors:
 identifiers:
   - type: url
     value: 'https://nekernel.org'
-    description: NeKernel.org
-repository-code: 'https://github.com/ne-foss-org/src'
+    description: Ne.org System
+repository-code: 'https://github.com/ne-foss-org/ne_system'
 url: 'https://nekernel.org'
 abstract: >-
-  This is the NeKernel.org System. Built upon its papers and frameworks.
+  This is the Ne.org System. Built upon its papers and frameworks.
 keywords:
   - kernel
-  - operating-system
+  - operating-systems
+  - c-plus-plus
+  - computer-science
   - bootloader
   - library
   - firmware

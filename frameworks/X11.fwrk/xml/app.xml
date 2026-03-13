@@ -1,0 +1,4 @@
+<PropertyList>
+<PLEntry Type="CFString" Name="LibraryName" Len="10" Value="X11" />
+<PLEntry Type="BOOL" Name="CacheLibs" Value="YES" />
+</PropertyList>

@@ -6,6 +6,8 @@
 #ifndef _NE_X11_H_
 #define _NE_X11_H_
 
+#define _NE_X11_SYSTEM 202603L
+
 // NeSystem Header.
 #include <System/NeSystem.h>
 
