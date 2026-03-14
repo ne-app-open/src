@@ -6,6 +6,6 @@
 #ifndef _NE_DDK_DDK_H_
 #define _NE_DDK_DDK_H_
 
-#include <Drivers/Config.h>
+#include <Drivers/Detail/Config.h>
 
 #endif // _NE_DDK_DDK_H_
