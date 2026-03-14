@@ -52,6 +52,10 @@ Give us a star on GitHub!
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/ne-foss-org/ne_system)
 
+## The Package Registry:
+
+We have a package registry for the NeSystem: [https://github.com/ne-ci-org/ports](https://github.com/ne-ci-org/ports) package porting happens here.
+
 ## Community:
 
 We have a [discord](https://discord.gg/uD76Qweght), join us! [https://discord.gg/uD76Qweght](https://discord.gg/uD76Qweght)
