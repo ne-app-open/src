@@ -10,7 +10,8 @@
 #define _SUBSYSTEM_NET 0x1000
 #define _SUBSYSTEM_DDK 0x1000
 #define _SUBSYSTEM_SYS 0x1000
-#define _NEKERNEL 202603
+
+#define _NEKERNEL 202603L
 
 #include <CoreFoundation.fwrk/headers/Foundation.h>
 #include <DiskImage.fwrk/headers/DiskImage.h>

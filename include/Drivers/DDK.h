@@ -3,11 +3,9 @@
 // Licensed under the Apache License, Version 2.0 (see LICENSE file)
 // Official repository: https://github.com/ne-foss-org/src
 
-#ifndef _SYSTEM_NE_WAYLAND_H_
-#define _SYSTEM_NE_WAYLAND_H_
+#ifndef _NE_DDK_DDK_H_
+#define _NE_DDK_DDK_H_
 
-#define _NE_WAYLAND_SYSTEM 202603L
+#include <Drivers/Config.h>
 
-#include <System/X11+Fwd.h>
-
-#endif // _SYSTEM_NE_WAYLAND_H_
+#endif // _NE_DDK_DDK_H_
