@@ -1,9 +1,9 @@
 {
     "compiler_path": "x86_64-w64-mingw32-g++",
     "compiler_std": "c++20",
-    "headers_path": ["../", "./", "../../../src", "../../../src/kernel"],
+    "headers_path": ["../", "./", "../src/kernel/src", "../src/kernel/src/kernel"],
     "sources_path": ["src/*.cc"],
-    "output_name": "./dist/x11.ddk.out",
+    "output_name": "./dist/gpubasic.ddk.out",
     "compiler_flags": [
       "-ffreestanding",
       "-shared",
