@@ -1,9 +1,9 @@
 -Ilib
 -std=c++20
 -xc++
--Idev/boot/
--Idev/build/dev
--Idev/kernel/dev
--Isrc/necar/dev
+-Isrc/boot/
+-Isrc/build/dev
+-Isrc/kernel/dev
+-Isrc/nectar/dev
 -I/opt/homebrew/Cellar/boost/1.90.0/include
--Iinclude/
+-Iinclude/ne_system/
