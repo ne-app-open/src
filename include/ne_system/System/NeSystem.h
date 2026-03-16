@@ -8,7 +8,7 @@
 
 #define _NE_SYSTEM 202603L
 
-#include <System/Detail/Config.h>
+#include <ne_system/System/Detail/Config.h>
 
 /// @brief POSIX wrapper API
 #include <libPOSIXWrapper/POSIXKit/unistd.h>

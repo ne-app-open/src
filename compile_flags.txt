@@ -2,8 +2,8 @@
 -std=c++20
 -xc++
 -Isrc/boot/
--Isrc/build/dev
--Isrc/kernel/dev
--Isrc/nectar/dev
+-Isrc/build/src
+-Isrc/kernel/src
+-Isrc/nectar/src
 -I/opt/homebrew/Cellar/boost/1.90.0/include
--Iinclude/ne_system/
+-Iinclude/

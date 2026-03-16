@@ -8,6 +8,6 @@
 
 #define _NE_WAYLAND_SYSTEM 202603L
 
-#include <System/X11+Fwd.h>
+#include <ne_system/System/WindowSystems/X11.h>
 
 #endif // _SYSTEM_NE_WAYLAND_H_

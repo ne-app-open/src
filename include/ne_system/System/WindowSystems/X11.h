@@ -8,14 +8,14 @@
 
 #define _NE_X11_SYSTEM 202603L
 
-// NeSystem Header.
-#include <System/NeSystem.h>
+/// @brief NeSystem Header.
+#include <ne_system/System/NeSystem.h>
 
-// Defs of the X11 protocol.
-#include <System/X11/Imports.h>
+/// @brief Defs of the X11 protocol.
+#include <ne_system/System/X11/Imports.h>
 
-// XDG' extensions of the X11 protocol.
-#include <System/X11/Ext/Imports.h>
+/// @brief XDG' extensions of the X11 protocol.
+#include <ne_system/System/X11/Ext/Imports.h>
 
 #endif // _SYSTEM_NE_X11_H_
 
