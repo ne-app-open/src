@@ -1,9 +1,11 @@
--Ilib
 -std=c++20
 -xc++
 -Isrc/boot/
 -Isrc/build/src
 -Isrc/kernel/src
+-Isrc/kernel/public
+-Isrc/kernel/public/frameworks
+-Iframeworks
 -Isrc/nectar/src
 -I/opt/homebrew/Cellar/boost/1.90.0/include
 -Iinclude/
