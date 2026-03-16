@@ -1,7 +1,15 @@
 import updater
 
+def start_updater():
+    try:
+        print("Updating system...")
+        updater.start()
+    except Error:
+        print("Updater failed, sorry!")
+        
+
 if __name__ == '__main__':
-    updater.start()
+    start_updater()
 
 
 
