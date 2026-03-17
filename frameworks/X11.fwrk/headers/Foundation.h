@@ -6,10 +6,6 @@
 #ifndef X11_FOUNDATION_H
 #define X11_FOUNDATION_H
 
-#include <System/X11+Fwd.h>
-
-struct XFCURSOR; // Cursor struct
-struct XFDISPLAY; // Display struct
-struct XFCONN; // Connection struct
+#include <ne_system/System/X11.h>
 
 #endif

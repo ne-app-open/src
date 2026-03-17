@@ -8,6 +8,13 @@
 
 #define _NE_X11_SYSTEM 202603L
 
+struct XFCURSOR; // Cursor struct
+struct XFDISPLAY; // Display struct
+struct XFCONN; // Connection struct
+
+typedef struct XFCURSOR* XcursorImage;
+typedef struct XFCURSOR** XcursorCursors;
+
 /// @brief NeSystem Header.
 #include <ne_system/System/NeSystem.h>
 
