@@ -1,22 +1,13 @@
 <!-- Read Me of NeKernel Sources -->
 
-![NeSystem](meta/media/ne_system.png)
-
 <div align="center">
   <h1>
-    <b>The NeSystem Project</b>
+    <b>🍯 The NeSystem:</b>
   </h1>
   <p>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache--2.0-blue.svg" alt="License"></a>
   </p>
 </div>
-
-## Primers:
-
-The primers are available at:
-
-- https://primer.src.nekernel.org
-- https://primer.nectar.nekernel.org
 
 ## Getting Started:
 
@@ -28,7 +19,14 @@ git clone --recurse-submodules -j8 git@github.com:ne-foss-org/ne_system.git
 
 And have a look at the wiki, docs, and primers. They have valuable resources to get started.
 
-## Rationale:
+## Read the primers!
+
+The primers are available at:
+
+- https://primer.src.nekernel.org
+- https://primer.nectar.nekernel.org
+
+## Design Rationale:
 
 There is three main reasons for this repository's existence:
 
