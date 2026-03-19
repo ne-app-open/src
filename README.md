@@ -11,13 +11,13 @@
 
 ## Getting Started:
 
-### Short-Version:
+### Quick Install:
 
 ```sh
 curl -fsSL http://install.nekernel.org | sh
 ```
 
-### Long-Version:
+### Long Version:
 
 Please clone the repository using Git:
 
