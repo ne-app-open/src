@@ -14,7 +14,7 @@
 ### Short-Version:
 
 ```sh
-curl -fsSL https://install.nekernel.org | sh
+curl -fsSL http://install.nekernel.org | sh
 ```
 
 ### Long-Version:
