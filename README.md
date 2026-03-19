@@ -11,6 +11,14 @@
 
 ## Getting Started:
 
+### Short-Version:
+
+```sh
+curl -fsSL https://install.nekernel.org | sh
+```
+
+### Long-Version:
+
 Please clone the repository using Git:
 
 ```sh
