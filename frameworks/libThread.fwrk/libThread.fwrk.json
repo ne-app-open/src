@@ -1,7 +1,7 @@
 {
     "compiler_path": "x86_64-w64-mingw32-g++",
     "compiler_std": "c++20",
-    "headers_path": ["../", "./", "../src/kernel/src/", "../src/kernel/src/kernel"],
+    "headers_path": ["../", "./", "../../src/kernel/src/libSystem", "../../src/kernel/src/", "../src/kernel/src/kernel"],
     "sources_path": ["src/*.cpp"],
     "output_name": "./dist/libThread.fwrk.dylib",
     "compiler_flags": [
