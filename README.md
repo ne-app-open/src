@@ -7,7 +7,7 @@
 
 # About:
 
-A project that aims to provide an alternative for backend systems. (Edge Computing, Storage Systems, etc.) made to be easily deployable and forkable as well.
+An OS that aims to provide an alternative for backend systems. (Edge Computing, Storage Systems, etc.) made to be easily deployable and forkable as well.
 
 ## Getting Started:
 
