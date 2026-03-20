@@ -3,9 +3,12 @@
 -Isrc/boot/
 -Isrc/build/src
 -Isrc/kernel/src
+-Isrc/kernel/src/libDDK
+-Isrc/kernel/src/libSystem
 -Isrc/kernel/public
 -Isrc/kernel/public/frameworks
 -Iframeworks
 -Isrc/nectar/src
 -I/opt/homebrew/Cellar/boost/1.90.0/include
 -Iinclude/
+-D__NEOSKRNL__

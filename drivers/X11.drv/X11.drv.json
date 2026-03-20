@@ -11,6 +11,9 @@
       "-fno-exceptions",
       "-Wl,--subsystem=17"
     ],
+    "ddk_depends_on": [
+      "GPUBasic"
+    ],
     "cpp_macros": [
       "kX11Version=0x0100",
       "kX11VersionHighest=0x0100",
