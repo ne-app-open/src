@@ -3,7 +3,7 @@
     "compiler_std": "c++20",
     "headers_path": ["../", "./", "../src/kernel/src/", "../src/kernel/src/kernel"],
     "sources_path": ["src/*.cc"],
-    "output_name": "./dist/x11.ddk.out",
+    "output_name": "./dist/threads.ddk.out",
     "compiler_flags": [
       "-ffreestanding",
       "-shared",
@@ -12,9 +12,9 @@
       "-Wl,--subsystem=17"
     ],
     "cpp_macros": [
-      "kX11Version=0x0100",
-      "kX11VersionHighest=0x0100",
-      "kX11VersionLowest=0x0100",
+      "kKTVersion=0x0100",
+      "kKTVersionHighest=0x0100",
+      "kKTVersionLowest=0x0100",
       "__NE_AMD64__"
     ]
   }
