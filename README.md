@@ -1,15 +1,25 @@
 <!-- Read Me of NeKernel Sources -->
 
-<div align="center">
-  <h1>
-    <b>🍯 The NeSystem:</b>
-  </h1>
-  <p>
-    <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache--2.0-blue.svg" alt="License"></a>
-  </p>
-</div>
+# 🍯 The NeSystem
+
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache--2.0-blue.svg" alt="License"></a>
+![GitHub Repo stars](https://img.shields.io/github/stars/ne-foss-org/ne-system)
+
+# About:
+
+A project that aims to provide an alternative for backend systems. (Edge Computing, Storage Systems, etc.) made to be easily deployable and forkable as well.
 
 ## Getting Started:
+
+## Building:
+
+You will need:
+
+- `nebuild`, the in-house build system.
+- `MinGW` or `Clang`, depending on the HAL/target ISA.
+- `CoreUtils`, for the core compiler utilities.
+
+Please follow the the tutorials in `/src/reference` to get started.
 
 ### Quick Install:
 
@@ -17,7 +27,7 @@
 curl -fsSL http://install.nekernel.org | sh
 ```
 
-### Long Version:
+### Full installation:
 
 Please clone the repository using Git:
 
@@ -41,22 +51,6 @@ There is three main reasons for this repository's existence:
 - Hold the system in a single repository.
 - Easier path resolutions based on a virtual root path, i.e (../kernel -> /src/kernel)
 - Easier cycles and vetting for Ne.org releases.
-
-## Building:
-
-You will need:
-
-- `nebuild` for the kernel build system.
-- `MinGW` or `Clang` depending on the HAL/target ISA.
-- `GNU CoreUtils` for the core compiler utilities.
-
-Please follow the the tutorials in `/src/reference` to get started.
-
-## Love the work?
-
-Give us a star on GitHub!
-
-![GitHub Repo stars](https://img.shields.io/github/stars/ne-foss-org/ne_system)
 
 ## The Package Registry:
 
