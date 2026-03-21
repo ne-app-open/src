@@ -1,4 +1,4 @@
-# <Title of PR>
+# [PR] <Title of PR>
 
 <Describe briefly your PR here.>
 

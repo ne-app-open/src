@@ -1,0 +1,26 @@
+name: Ne.org Kernel [BUILD]
+
+on:
+  push:
+    branches: [ "develop" ]
+  pull_request:
+    branches: [ "develop" ]
+
+env:
+  BUILD_TYPE: KERNEL_BUILD
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Attempt NeBuild
+      run: sudo curl https://git.src.nekernel.org/nebuild/releases/download/v0.0.6-apple-m1/nebuild-debian -o /usr/bin/nebuild && sudo chmod +x /usr/bin/nebuild
+    - name: Check NeBuild
+      run: nebuild -v
+    - name: Install QEMU-IMG
+      run: sudo apt update && sudo apt install qemu-utils
+    - name: Attempt Kernel Build
+      run: mkdir tmp && sudo apt install g++-mingw-w64-x86-64 gcc-mingw-w64 nasm && git clone https://github.com/ne-foss-org/ne_kernel.git tmp/kernel && cd tmp/kernel/src/libSystem && nebuild libSystem.json
+
