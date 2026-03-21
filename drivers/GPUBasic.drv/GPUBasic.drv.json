@@ -12,10 +12,9 @@
       "-Wl,--subsystem=17"
     ],
     "cpp_macros": [
-      "kKTVersion=0x0100",
-      "kKTVersionHighest=0x0100",
-      "kKTVersionLowest=0x0100",
-      "__NE_AMD64__"
+      "kGPUVersion=0x0100",
+      "kGPUVersionHighest=0x0100",
+      "kGPUVersionLowest=0x0100"
     ]
   }
   

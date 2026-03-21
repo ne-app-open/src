@@ -17,8 +17,7 @@
     "cpp_macros": [
       "kX11Version=0x0100",
       "kX11VersionHighest=0x0100",
-      "kX11VersionLowest=0x0100",
-      "__NE_AMD64__"
+      "kX11VersionLowest=0x0100"
     ]
   }
   
