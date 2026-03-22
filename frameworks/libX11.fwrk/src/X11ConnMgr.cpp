@@ -11,7 +11,7 @@
 
 namespace X11 {
 
-    struct X11Connection final {
+struct X11Connection final {
   SInt32 fSocket;
   SInt32 fType;
   SInt32 fFlags;
