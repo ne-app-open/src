@@ -5,17 +5,34 @@
 
 #include <libSystem/SystemKit/System.h>
 #include <libX11.fwrk/headers/Config.h>
-#include <CoreFoundation.fwrk/headers/String.h>
 
 #define X11_ARRAY_CHECK(PTR) PTR != nullptr
-#define X11_ARRAY_INDEX(ARR, PTR, LEN) ARR[((SInt64)PTR) % LEN]
+#define X11_ARRAY_INDEX(ARR, PTR, LEN) ARR[((SInt64) PTR) % LEN]
 
-struct X11Connection final {
-    SInt32 fSocket; 
-    SInt32 fType;
-    SInt32 fFlags;
-    SInt32 fPad;
+namespace X11 {
+
+    struct X11Connection final {
+  SInt32 fSocket;
+  SInt32 fType;
+  SInt32 fFlags;
+  SInt32 fPad;
 };
 
-typedef X11Connection* X11ConnectionPtr;
+typedef X11Connection*    X11ConnectionPtr;
 typedef X11ConnectionPtr* X11ConnectionArray;
+
+static X11ConnectionPtr X11MakeConnection() {
+  auto ptr = new X11Connection{};
+  if (!ptr) return nullptr;
+
+  return ptr;
+}
+
+static Void X11DeleteConnection(X11ConnectionPtr ptr) {
+  if (!ptr) return;
+
+  delete ptr;
+  ptr = nullptr;
+}
+
+}  // namespace X11
