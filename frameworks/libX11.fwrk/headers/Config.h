@@ -6,6 +6,6 @@
 #ifndef X11_FOUNDATION_H
 #define X11_FOUNDATION_H
 
-#include <ne_system/System/X11.h>
+#include <X11/Xlib.h>
 
 #endif

@@ -12,3 +12,4 @@
 -I/opt/homebrew/Cellar/boost/1.90.0/include
 -Iinclude/
 -D__NEOSKRNL__
+-D__nekernel_halkit_include_processor=""
