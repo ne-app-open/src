@@ -1,8 +1,8 @@
-<!-- Read Me of NeKernel Sources -->
+<!-- ReadMe of the NeSystem -->
 
 # 🍯 The NeSystem
 
-<a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache--2.0-blue.svg" alt="License"></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/LICENSE-Apache--2.0-blue.svg" alt="License"></a>
 ![GitHub Repo stars](https://img.shields.io/github/stars/ne-foss-org/ne-system)
 
 # About:
