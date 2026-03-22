@@ -1,12 +1,12 @@
 [submodule "src/kernel"]
 	path = src/kernel
-	url = git@github.com:ne-foss-org/ne_kernel.git
+	url = git@github.com:ne-foss-org/ne-kernel.git
 [submodule "src/build"]
 	path = src/build
-	url = git@github.com:ne-foss-org/build.git
+	url = git@github.com:ne-foss-org/ne-build.git
 [submodule "src/boot"]
 	path = src/boot
-	url = git@github.com:ne-foss-org/boot.git
+	url = git@github.com:ne-foss-org/ne-boot.git
 [submodule "toolchains/mingw-w64-nekernel"]
 	path = toolchains/mingw-w64-nekernel
 	url = git@github.com:ne-foss-org/mingw-n64.git
