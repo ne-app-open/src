@@ -3,7 +3,7 @@
 // Licensed under the Apache License, Version 2.0 (see LICENSE file)
 // Official repository: https://github.com/ne-foss-org/ne_system
 
-#include <libSystem/SystemKit/System.h>
+#include <libThread.fwrk/headers/Config.h>
 
 #define kThreadMapMax (1024UL)
 #define kThreadBaseHash (0x5555ffff6ULL)

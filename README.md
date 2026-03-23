@@ -52,7 +52,7 @@ There is three main reasons for this repository's existence:
 - Easier path resolutions based on a virtual root path, i.e (../kernel -> /src/kernel)
 - Easier cycles and vetting for Ne.org releases.
 
-## The Package Registry:
+## Packages:
 
 We have a package registry for the NeSystem: [https://github.com/ne-ci-org/ports](https://github.com/ne-ci-org/ports) package porting happens here.
 
