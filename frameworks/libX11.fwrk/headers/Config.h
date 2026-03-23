@@ -8,6 +8,8 @@
 
 #include <libSystem/SystemKit/System.h>
 
+#define LIBX11_VERSION 0x100000
+
 #define _X11_ARRAY_CHECK(PTR) PTR != nullptr
 #define _X11_ARRAY_INDEX(ARR, PTR, LEN) ARR[((SInt64) PTR) % LEN]
 

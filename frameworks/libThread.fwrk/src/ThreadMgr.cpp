@@ -3,6 +3,7 @@
 // Licensed under the Apache License, Version 2.0 (see LICENSE file)
 // Official repository: https://github.com/ne-foss-org/ne_system
 
+#include <libSystem/SystemKit/Err.h>
 #include <libThread.fwrk/headers/Config.h>
 
 #define kThreadMapMax (1024UL)
@@ -21,15 +22,15 @@ static ThreadRef kCurrentThread;
 
 static __THREAD_UNSAFE Void _ThrRunThread(SInt32 argument_count, VoidPtr args,
                                           ThrProcKind procedure, ThreadRef ref) {
-  static SemaphoreRef sem_ref                          = SemCreate(0, 1000, "ThreadSem");
-  
+  static SemaphoreRef sem_ref = SemCreate(0, 1000, "ThreadSem");
+
   if (sem_ref) return;
-  
-  auto         ret                              = procedure(argument_count, (Char**) args);
+
+  auto ret                                      = procedure(argument_count, (Char**) args);
   kThreadExitCodes[kThreadMapMax % ref->__hash] = ret;
 
   if (ref == kCurrentThread) kCurrentThread = nullptr;
-  
+
   SemClose(sem_ref);
   sem_ref = nullptr;
 }
@@ -46,7 +47,7 @@ IMPORT_C ThreadRef ThrCreateThread(const Char* thread_name, ThrProcKind procedur
   }
 
   ref->__hash = *(UInt32*) thread_name;
-  ref->__hash += kThreadBaseHash; // pad hash with a seed.
+  ref->__hash += kThreadBaseHash;  // pad hash with a seed.
 
   ref->__self = (VoidPtr) procedure;
 
@@ -58,4 +59,16 @@ IMPORT_C ThreadRef ThrCreateThread(const Char* thread_name, ThrProcKind procedur
   _ThrRunThread(argument_count, args, procedure, ref);
 
   return ref;
+}
+
+IMPORT_C SInt32 ThrExitThread(_Input ThreadRef ref, _Input SInt32 exit_code) {
+  if (!ref) return kErrorInvalidData;
+
+  kThreadMap[kThreadMapMax % ref->__hash]   = nullptr;
+  kThreadHeads[kThreadMapMax % ref->__hash] = nullptr;
+
+  if (kCurrentThread == ref) kCurrentThread = nullptr;
+
+  kThreadExitCodes[kThreadMapMax % ref->__hash] = exit_code;
+  return kErrorSuccess;
 }

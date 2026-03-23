@@ -8,4 +8,6 @@
 
 #include <libSystem/SystemKit/System.h>
 
+#define LIBTHREAD_VERSION 0x100000
+
 #endif // LIBTHREAD_FOUNDATION_H
