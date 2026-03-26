@@ -2,6 +2,9 @@
 
 ## To be used for: curl -fsSL https://install.nekernel.org | sh
 
+echo "== WELCOME TO NESYSTEM =="
+echo "INSTALLING NESYSTEM..."
+
 ARCH=x64
 PROFILE=debug
 
