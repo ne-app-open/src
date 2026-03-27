@@ -5,9 +5,9 @@
 <a href="LICENSE"><img src="https://img.shields.io/badge/LICENSE-Apache--2.0-blue.svg" alt="License"></a>
 ![GitHub Repo stars](https://img.shields.io/github/stars/ne-foss-org/ne-system)
 
-# About:
+## About:
 
-An OS that aims to provide an alternative for backend systems. (Edge Computing, Storage Systems, etc.) made to be easily deployable and forkable as well.
+An OS that aims to provide an alternative for backend systems. (Edge Compute, Web Servers, Backend Servers, Storage Systems, etc.) made to be easily deployable and forkable as well.
 
 ## Getting Started:
 
@@ -27,17 +27,17 @@ Please follow the the tutorials in `/src/reference` to get started.
 curl -fsSL http://install.nekernel.org | sh
 ```
 
-### Full installation:
+### Full Installation:
 
 Please clone the repository using Git:
 
 ```sh
-git clone --recurse-submodules -j8 git@github.com:ne-foss-org/ne_system.git
+git clone --recurse-submodules -j8 git@github.com:ne-foss-org/ne-system.git
 ```
 
 And have a look at the wiki, docs, and primers. They have valuable resources to get started.
 
-## Read the primers!
+## Primers:
 
 The primers are available at:
 

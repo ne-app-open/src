@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: Apache-2.0
 // Copyright 2026, Amlal El Mahrouss (amlal@nekernel.org)
 // Licensed under the Apache License, Version 2.0 (see LICENSE file)
-// Official repository: https://github.com/ne-foss-org/ne_system
+// Official repository: https://github.com/ne-foss-org/ne-system
 
 #ifndef _SYSTEM_NE_SYSTEM_H_
 #define _SYSTEM_NE_SYSTEM_H_
 
 #define _NE_SYSTEM 202603L
 
-#include <ne_system/System/Detail/Config.h>
+#include <ne-system/System/Detail/Config.h>
 
 /// @brief POSIX wrapper API
 #include <libPOSIXWrapper/POSIXKit/unistd.h>

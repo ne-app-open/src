@@ -1,5 +1,5 @@
 [NeSystem]
-ne_system
+ne-system
 [MailDel]
 maildev
 [HttpServer]

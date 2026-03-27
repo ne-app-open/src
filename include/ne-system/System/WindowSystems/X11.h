@@ -16,13 +16,13 @@ typedef struct XFCURSOR* XcursorImage;
 typedef struct XFCURSOR** XcursorCursors;
 
 /// @brief NeSystem Header.
-#include <ne_system/System/NeSystem.h>
+#include <ne-system/System/NeSystem.h>
 
 /// @brief Defs of the X11 protocol.
-#include <ne_system/System/X11/Imports.h>
+#include <ne-system/System/X11/Imports.h>
 
 /// @brief XDG' extensions of the X11 protocol.
-#include <ne_system/System/X11/Ext/Imports.h>
+#include <ne-system/System/X11/Ext/Imports.h>
 
 #endif // _SYSTEM_NE_X11_H_
 
