@@ -13,6 +13,7 @@ PROFILE=debug
 
 git clone --recurse-submodules -j8 https://github.com/ne-foss-org/ne-system.git
 cd ne-system
+git submodule update --init
 export UPDATER_NO_COMMIT=1
 ./updater.sh
 ./scripts/setup_x64_project.sh
