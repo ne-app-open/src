@@ -15,7 +15,7 @@
 	url = git@github.com:ne-foss-org/nectar.git
 [submodule "papers"]
 	path = papers
-	url = git@github.com:ne-foss-org/papers.git
+	url = git@github.com:ne-ci-org/papers.git
 [submodule "toolchains/mingw-w64-gcc"]
 	path = toolchains/mingw-w64-gcc
 	url = git@github.com:ne-foss-org/gcc-n64.git
