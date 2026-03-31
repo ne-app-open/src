@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-title: Ne.org System
-message: The Ne.org System
+title: Ne.app System
+message: The Ne.app System
 type: software
 authors:
   - given-names: Amlal
@@ -9,11 +9,11 @@ authors:
 identifiers:
   - type: url
     value: 'https://nekernel.org'
-    description: THe Ne.org NeSystem Server OS.
+    description: THe Ne.app NeSystem Server OS.
 repository-code: 'https://github.com/ne-foss-org/ne-system'
 url: 'https://nekernel.org'
 abstract: >-
-  This is the Ne.org NeSystem. Built upon its papers and frameworks.
+  This is the Ne.app NeSystem. Built upon its papers and frameworks.
 keywords:
   - kernel
   - operating-systems

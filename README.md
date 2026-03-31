@@ -50,7 +50,7 @@ There is three main reasons for this repository's existence:
 
 - Hold the system in a single repository.
 - Easier path resolutions based on a virtual root path, i.e (../kernel -> /src/kernel)
-- Easier cycles and vetting for Ne.org releases.
+- Easier cycles and vetting for Ne.app releases.
 
 ## Packages:
 
@@ -60,4 +60,4 @@ We have a package registry for the NeSystem: [https://github.com/ne-ci-org/ports
 
 We have a [discord](https://discord.gg/uD76Qweght), join us! [https://discord.gg/uD76Qweght](https://discord.gg/uD76Qweght)
 
-###### Copyright 2025-2026, Amlal El Mahrouss & Ne.org Authors, licensed under Apache 2.0.
+###### Copyright 2025-2026, Amlal El Mahrouss & Ne.app Authors, licensed under Apache 2.0.

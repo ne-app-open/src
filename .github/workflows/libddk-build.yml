@@ -1,4 +1,4 @@
-name: Ne.org libDDK [BUILD]
+name: Ne.app libDDK [BUILD]
 
 on:
   push:

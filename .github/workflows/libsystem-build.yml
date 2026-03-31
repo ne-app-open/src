@@ -1,4 +1,4 @@
-name: Ne.org libSystem [BUILD]
+name: Ne.app libSystem [BUILD]
 
 on:
   push:

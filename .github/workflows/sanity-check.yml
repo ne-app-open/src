@@ -1,4 +1,4 @@
-name: Ne.org Build [SANITY]
+name: Ne.app Build [SANITY]
 
 on:
   push:
