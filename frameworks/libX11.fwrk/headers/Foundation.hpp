@@ -3,8 +3,8 @@
 // Licensed under the Apache License, Version 2.0 (see LICENSE file)
 // Official repository: https://github.com/ne-foss-org/ne-system
 
-#ifndef X11_FOUNDATION_H
-#define X11_FOUNDATION_H
+#ifndef LIBX11_FOUNDATION_HPP
+#define LIBX11_FOUNDATION_HPP
 
 #include <libSystem/SystemKit/System.h>
 
@@ -15,16 +15,20 @@
 
 namespace X11 {
 
-/// @brief Plain Old Data type for a X11 connection.
-struct X11Connection final {
-  SInt32 fSocket;
-  SInt32 fType;
-  SInt32 fFlags;
-  SInt32 fPad;
-};
+namespace Detail {
 
-typedef X11Connection*    X11ConnectionPtr;
-typedef X11ConnectionPtr* X11ConnectionArray;
+  /// @brief Plain Old Data type for a X11 connection.
+  struct X11Connection final {
+    SInt32 fSocket;
+    SInt32 fType;
+    SInt32 fFlags;
+    SInt32 fPad;
+  };
+
+  typedef X11Connection*    X11ConnectionPtr;
+  typedef X11ConnectionPtr* X11ConnectionArray;
+
+}  // namespace Detail
 
 }  // namespace X11
 
