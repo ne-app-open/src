@@ -15,7 +15,7 @@ class UpdateFunctor:
         os.system("cd papers && git pull")
         os.system("git add src/kernel src/nectar papers src/build src/boot")
         if (os.environ.get('UPDATER_NO_COMMIT', False) == False):
-            os.system("git commit -s -S")
+            os.system("git commit -s")
 
 def start():
     functor = UpdateFunctor()

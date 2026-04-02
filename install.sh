@@ -9,7 +9,7 @@ sudo apt update
 sudo apt install nasm mingw-w64 x86_64-w64-mingw32-g++ x86_64-w64-mingw32-gcc build-essential cmake libboost-dev
 
 ARCH=x64
-PROFILE=debug
+PROFILE=release
 
 git clone --recurse-submodules -j8 https://github.com/ne-foss-org/ne-system.git
 cd ne-system
