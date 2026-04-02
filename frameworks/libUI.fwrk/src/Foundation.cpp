@@ -7,7 +7,7 @@
 
 /// Enforceable at compile-time.
 #ifndef LIBUI_ARRAY_INDEX_MAX_LEN
-#define LIBUI_ARRAY_INDEX_MAX_LEN 1024
+#define LIBUI_ARRAY_INDEX_MAX_LEN __nesystem_conn_array_max_len
 #endif
 
 namespace System::UI {
@@ -18,9 +18,9 @@ namespace Detail {
 
   IMPORT_C PConnectionType UIMakeConnection() {
     auto ptr = new Connection{};
-    if (!ptr) return nullptr;
 
-    kConnections[LIBUI_ARRAY_INDEX(kConnections, ptr, LIBUI_ARRAY_INDEX_MAX_LEN)] = ptr;
+    if (!ptr) return nullptr;
+    if (ptr) kConnections[LIBUI_ARRAY_INDEX(kConnections, ptr, LIBUI_ARRAY_INDEX_MAX_LEN)] = ptr;
 
     return ptr;
   }
