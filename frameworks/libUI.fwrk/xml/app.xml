@@ -1,5 +1,0 @@
-<PropertyList>
-	<PLEntry Type="CFString" Name="LibraryName" Len="3" Value="UI" />
-	<PLEntry Type="BOOL" Name="CacheLibs" Value="YES" />
-	<PLEntry Type="SInt32" Name="Type" Value="100" />
-</PropertyList>
