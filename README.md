@@ -44,6 +44,8 @@ The primers are available at:
 - https://primer.src.nekernel.org
 - https://primer.nectar.nekernel.org
 
+They're made to be beginner friendly as well.
+
 ## Design Rationale:
 
 There is three main reasons for this repository's existence:
@@ -54,10 +56,11 @@ There is three main reasons for this repository's existence:
 
 ## Packages:
 
-We have a package registry for the NeSystem: [https://github.com/ne-ci-org/ports](https://github.com/ne-ci-org/ports) package porting happens here.
+We have a package registry for the NeSystem: [https://ports.ne-app.eu/ant-os/stable](https://ports.ne-app.eu/ant-os/stable), 
+please keep in mind that both NeSystem and Ant is supported. (They have the same APIs, Ant has more, Ant is also source-available if you're curious email us at contact@nekernel.org)
 
 ## Community:
 
-We have a [discord](https://discord.gg/uD76Qweght), join us! [https://discord.gg/uD76Qweght](https://discord.gg/uD76Qweght)
+We have a [Discord](https://discord.gg/uD76Qweght), join us! [https://discord.gg/uD76Qweght](https://discord.gg/uD76Qweght)
 
 ###### Copyright 2025-2026, Amlal El Mahrouss & Ne.app Authors, licensed under Apache 2.0.
