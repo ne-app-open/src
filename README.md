@@ -11,6 +11,8 @@ A software distribution that aims to provide an alternative for backend systems.
 
 ## Getting Started:
 
+Please follow the instructions below to get started:
+
 ## Building:
 
 You will need:

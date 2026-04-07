@@ -1,18 +1,12 @@
 [submodule "src/kernel"]
 	path = src/kernel
-	url = git@github.com:ne-foss-org/ne-kernel.git
+	url = git@github.com:ne-foss/ne-kernel.git
 [submodule "src/build"]
 	path = src/build
-	url = git@github.com:ne-foss-org/ne-build.git
-[submodule "src/boot"]
-	path = src/boot
-	url = git@github.com:ne-foss-org/ne-boot.git
+	url = git@github.com:ne-foss/ne-build.git
 [submodule "src/nectar"]
 	path = src/nectar
-	url = git@github.com:ne-foss-org/nectar.git
+	url = git@github.com:ne-foss/nectar.git
 [submodule "papers"]
 	path = papers
-	url = git@github.com:ne-ci-org/papers.git
-[submodule "meta/css"]
-	path = meta/css
-	url = https://github.com/jothepro/doxygen-awesome-css.git
+	url = git@github.com:ne-app-ci/papers.git

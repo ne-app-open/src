@@ -1,7 +1,0 @@
-[requires]
-boost/1.90.0
-[generators]
-CMakeDeps
-CMakeToolchain
-[layout]
-cmake_layout

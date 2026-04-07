@@ -2,7 +2,7 @@
 
 ## To be used for: curl -fsSL https://install.nekernel.org | sh
 
-echo "==> WELCOME TO NESYSTEM."
+echo "==> WELCOME TO THE NESYSTEM INSTALLER."
 echo "==> INSTALLING NESYSTEM..."
 
 sudo apt update
@@ -19,4 +19,3 @@ export UPDATER_NO_COMMIT=1
 ./scripts/setup_x64_project.sh
 ./scripts/modules_ahci_x64.sh
 ./scripts/debug_ahci_x64.sh
-
