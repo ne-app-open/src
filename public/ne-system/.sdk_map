@@ -1,4 +1,4 @@
 [DDK]
-Drivers
+path=Drivers
 [User]
-System
+path=System
