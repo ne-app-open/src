@@ -58,8 +58,8 @@ There is three main reasons for this repository's existence:
 
 ## Packages:
 
-We have a package registry for the NeSystem: [https://ports.ne-app.eu/ant-os/stable](https://ports.ne-app.eu/ant-os/stable), 
-please keep in mind that both NeSystem and Ant is supported. (They have the same APIs, Ant has more, Ant is also source-available if you're curious email us at contact@nekernel.org)
+We plan to host a package registry for NeSystem and Ant: [https://ports.ne-app.eu/ant-os/stable](https://ports.ne-app.eu/ant-os/stable), 
+please keep in mind that both NeSystem and Ant is supported.
 
 ## Community:
 
