@@ -18,6 +18,7 @@ class UpdateFunctor:
 
 def start():
     functor = UpdateFunctor()
-    print("INFO: Updater: Functor called")
+    if (os.environ.get('UPDATER_VERBOSE', False) == True):
+        print("INFO: Updater: Functor called")
 
 
