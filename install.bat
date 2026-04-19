@@ -3,6 +3,8 @@
 echo "==> WELCOME TO THE NESYSTEM INSTALLER."
 echo "==> INSTALLING NESYSTEM..."
 
+:: To be used for: curl -fsSL https://setup.nekernel.org
+
 ARCH=x64
 PROFILE=release
 
