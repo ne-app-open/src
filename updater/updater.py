@@ -8,11 +8,11 @@ import os
 
 class UpdateFunctor:
     def __init__(self):
-        os.system("cd src && cd kernel && git pull && cd ..")
-        os.system("cd src && cd nectar && git pull && cd ..")
-        os.system("cd src && cd build && git pull && cd ..")
+        os.system("cd private/src && cd kernel && git pull && cd ..")
+        os.system("cd private/src && cd nectar && git pull && cd ..")
+        os.system("cd private/src && cd build && git pull && cd ..")
         os.system("cd papers && git pull")
-        os.system("git add src/kernel src/nectar papers src/build")
+        os.system("git add private/src/kernel private/src/nectar papers private/src/build")
         if (os.environ.get('UPDATER_NO_COMMIT', False) == False):
             os.system("git commit -s")
 
