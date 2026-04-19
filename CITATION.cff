@@ -9,7 +9,7 @@ authors:
 identifiers:
   - type: url
     value: 'https://nekernel.org'
-    description: THe Ne.app NeSystem Server OS.
+    description: The Ne.app NeSystem Server OS.
 repository-code: 'https://github.com/ne-foss/ne-system'
 url: 'https://nekernel.org'
 abstract: >-

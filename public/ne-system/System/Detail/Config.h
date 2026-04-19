@@ -13,8 +13,8 @@
 
 #define _NEKERNEL 202603L
 
-#include <CoreFoundation.fwrk/headers/Foundation.h>
-#include <DiskImage.fwrk/headers/DiskImage.h>
-#include <LaunchHelpers.fwrk/headers/Foundation.h>
+#include <CoreFoundation/headers/Foundation.h>
+#include <DiskImage/headers/DiskImage.h>
+#include <LaunchHelpers/headers/Foundation.h>
 
 

@@ -1,12 +1,12 @@
-[submodule "src/kernel"]
-	path = src/kernel
-	url = git@github.com:ne-foss/ne-kernel.git
-[submodule "src/build"]
-	path = src/build
-	url = git@github.com:ne-foss/ne-build.git
-[submodule "src/nectar"]
-	path = src/nectar
-	url = git@github.com:ne-foss/nectar.git
 [submodule "papers"]
 	path = papers
 	url = git@github.com:ne-app-ci/papers.git
+[submodule "private/src/ne-kernel"]
+	path = private/src/ne-kernel
+	url = git@github.com:ne-foss/ne-kernel.git
+[submodule "private/src/nectar"]
+	path = private/src/nectar
+	url = git@github.com:ne-foss/nectar.git
+[submodule "private/src/ne-build"]
+	path = private/src/ne-build
+	url = git@github.com:ne-foss/ne-build.git
