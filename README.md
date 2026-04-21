@@ -25,6 +25,10 @@ Please follow the the tutorials in `/src/reference` to get started.
 
 ### Quick Install:
 
+> [!NOTE]
+> On Windows, you will need to use the setup link at:
+> `curl -fsSL http://setup.nekernel.org`.
+
 ```sh
 curl -fsSL http://install.nekernel.org | sh
 ```
