@@ -13,7 +13,7 @@ struct DBG_HOST {
 
 static struct DBG_HOST* kDbgHost = nullptr;
 
-int main(void) {
+int NeMain(void) {
     PrintOut(nullptr, "%s", "Ne.app NeSystem DebugHost.\r");
 
     kDbgHost = MmCreateHeap(sizeof(struct DBG_HOST), 0);

@@ -15,6 +15,6 @@
     "kNeVersionHighest=0x0100",
     "kNeVersionLowest=0x0100"
   ],
-  "description": "The NeSystem Host Service."
+  "description": "The NeSystem Common Host Service."
 }
   
