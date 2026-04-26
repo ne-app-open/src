@@ -10,7 +10,7 @@ def start_updater():
     try:
         print("Updating system...")
         updater.start()
-    except TypeError:
+    except OSError:
         print("Updater failed, sorry!")
         
 
