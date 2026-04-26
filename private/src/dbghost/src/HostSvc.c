@@ -14,7 +14,7 @@ struct DBG_HOST {
 static struct DBG_HOST* kDbgHost = nullptr;
 
 int NeMain(void) {
-    PrintOut(nullptr, "%s", "Ne.app NeSystem DebugHost.\r");
+    PrintOut(nullptr, "%s", "Ne.app Debug Host.\r");
 
     kDbgHost = MmCreateHeap(sizeof(struct DBG_HOST), 0);
 

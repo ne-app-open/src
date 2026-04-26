@@ -6,6 +6,6 @@
 #include <ne-system/System/NeSystem.h>
 
 int NeMain(void) {
-    PrintOut(nullptr, "%s", "Ne.app NeSystem Common Host Service.\r");
+    PrintOut(nullptr, "%s", "Ne.app Common Host Service.\r");
     return 0;
 }
