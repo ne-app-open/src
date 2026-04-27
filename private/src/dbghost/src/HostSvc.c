@@ -24,6 +24,7 @@ int NeMain(void) {
     while (kDbgHostEnabled) {
         /// When the debug host dies, exit the program.
         if (!kDbgHost) break;
+        /// When the signal goes sour, exit the program.
         if (kDbgSignal == kErrorUnimplemented) break;
     }
 
