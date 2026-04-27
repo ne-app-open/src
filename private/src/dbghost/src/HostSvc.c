@@ -12,16 +12,23 @@ struct DBG_HOST {
 };
 
 static struct DBG_HOST* kDbgHost = nullptr;
+static SInt32 kDbgHostEnabled = YES;
+static SInt32 kDbgSignal = kErrorSuccess;
 
 int NeMain(void) {
-    PrintOut(nullptr, "%s", "Ne.app Debug Host.\r");
+    PrintOut(nullptr, "%s", "Ne.app Debug Host.\rCopyright 2026, Ne.app.\r");
 
     kDbgHost = MmCreateHeap(sizeof(struct DBG_HOST), 0);
+    if (!kDbgHost) return kErrorInvalidData;
 
-    if (!kDbgHost) return 1;
+    while (kDbgHostEnabled) {
+        /// When the debug host dies, exit the program.
+        if (!kDbgHost) break;
+        if (kDbgSignal == kErrorUnimplemented) break;
+    }
 
     MmDestroyHeap(kDbgHost);
     kDbgHost = nullptr;
 
-    return 0;
+    return kErrorSuccess;
 }

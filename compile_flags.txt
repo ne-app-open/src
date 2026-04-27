@@ -3,6 +3,9 @@
 -Iprivate/src/build/src
 -Iprivate/src/ne-kernel/private/src
 -Iprivate/src/ne-kernel/private/src/libDDK
+-Iprivate/src/ne-kernel/private/src/minkernel
+-Iprivate/src/ne-kernel/private/src/minloader
+-Iprivate/src/ne-kernel/private/src/mindetect
 -Iprivate/src/ne-kernel/private/src/libSystem
 -Iprivate/src/ne-kernel/public
 -Iprivate/src/ne-kernel/public/frameworks

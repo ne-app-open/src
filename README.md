@@ -1,8 +1,8 @@
 <!-- ReadMe of the NeSystem -->
 
-# 🍯 The NeSystem
+# 🍯 NeSystem
 
-<a href="LICENSE"><img src="https://img.shields.io/badge/LICENSE-Apache--2.0-blue.svg?style=for-the-badge" alt="License"></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/LICENSE-Apache--2.0-blue.svg?style=for-the-badge" alt="LICENSE"></a>
 ![GitHub Repo stars](https://img.shields.io/github/stars/ne-foss-org/ne-system?style=for-the-badge)
 
 ## About:
@@ -21,7 +21,7 @@ You will need:
 - `MinGW` or `Clang`, depending on the HAL/target ISA.
 - `CoreUtils`, for the core compiler utilities.
 
-Please follow the the tutorials in `/src/reference` to get started.
+Please follow the the tutorials in `/private/src/refs` to get started.
 
 ### Quick Install:
 
@@ -38,7 +38,7 @@ curl -fsSL http://install.nekernel.org | sh
 Please clone the repository using Git:
 
 ```sh
-git clone --recurse-submodules -j8 git@github.com:ne-foss-org/ne-system.git
+git clone --recurse-submodules -j8 https://github.com/ne-foss/ne-system.git
 ```
 
 And have a look at the wiki, docs, and primers. They have valuable resources to get started.
