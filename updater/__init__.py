@@ -9,13 +9,11 @@ import updater
 def start_updater():
     try:
         print("Updating system...")
-        updater.start()
-    except OSError:
-        print("Updater failed, sorry!")
+        updater.update()
+    except OSError as e:
+        print("Updater failed:", e)
         
 
 if __name__ == '__main__':
     start_updater()
-
-
 
