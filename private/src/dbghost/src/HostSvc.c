@@ -15,7 +15,7 @@ static struct DBG_HOST* kDbgHost = nullptr;
 static SInt32 kDbgHostEnabled = YES;
 static SInt32 kDbgSignal = kErrorSuccess;
 
-int NeMain(void) {
+SInt32 NeMain(Void) {
     PrintOut(nullptr, "%s", "Ne.app Debug Host.\rCopyright 2026, Ne.app.\r");
 
     kDbgHost = MmCreateHeap(sizeof(struct DBG_HOST), 0);

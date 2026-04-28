@@ -7,7 +7,7 @@
 
 ## About:
 
-A software distribution that aims to provide an alternative for backend systems. (Edge Compute, Web Servers, Backend Servers, Storage Systems, etc.) made to be easily deployable and forkable as well.
+The Ne System is a collection of system modules written in modern C++.
 
 ## Getting Started:
 
@@ -60,13 +60,13 @@ There is three main reasons for this repository's existence:
 - Easier path resolutions based on a virtual root path, i.e (../kernel -> /src/kernel)
 - Easier cycles and vetting for Ne.app releases.
 
-## Packages:
+## Packaging:
 
-We plan to host a package registry for NeSystem and Ant: [https://ports.ne-app.eu/ant-os/stable](https://ports.ne-app.eu/ant-os/stable), 
-please keep in mind that both NeSystem and Ant is supported.
+We plan to host a package registry for NeSystem and ANT.
+More information soon.
 
 ## Community:
 
-We have a [Discord](https://discord.gg/uD76Qweght), join us! [https://discord.gg/uD76Qweght](https://discord.gg/uD76Qweght)
+We have a [Discord](https://discord.gg/uD76Qweght), join us!
 
-###### Copyright 2025-2026, Amlal El Mahrouss & Ne.app Authors, licensed under Apache 2.0.
+###### Copyright 2025-2026, Amlal El Mahrouss & Contributors, licensed under Apache 2.0.

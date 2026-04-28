@@ -3,7 +3,7 @@
   "compiler_std": "c++20",
   "headers_path": [ "../", "./", "../../../public/" ],
   "sources_path": [ "src/*.c" ],
-  "output_name": "./dist/dbghost.exe",
+  "output_name": "./dist/consolehost.exe",
   "compiler_flags": [
     "-ffreestanding",
     "-fno-rtti",
@@ -15,6 +15,6 @@
     "kNeDbgVersionHighest=0x0100",
     "kNeDbgVersionLowest=0x0100"
   ],
-  "description": "The NeSystem Debug Host Service."
+  "description": "The NeSystem Console Host Service."
 }
   
