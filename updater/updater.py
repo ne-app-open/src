@@ -12,7 +12,7 @@ class UpdateFunctor:
         os.system("cd private/src && cd nectar && git pull && cd ..")
         os.system("cd private/src && cd ne-build && git pull && cd ..")
         os.system("cd papers && git pull")
-        os.system("git add private/src/ne-kernel private/src/nectar papers private/src/ne-build")
+        os.system("git add private/src/ne-kernel private/src/nectar private/doc/papers private/src/ne-build")
         if (os.environ.get('UPDATER_NO_COMMIT', False) == False):
             os.system("git commit -s")
 
