@@ -5,8 +5,8 @@ echo "==> INSTALLING NESYSTEM..."
 
 :: To be used for: curl -fsSL https://setup.nekernel.org
 
-ARCH=x64
-PROFILE=release
+set ARCH=x64
+set PROFILE=release
 
 git clone --recurse-submodules -j8 https://github.com/ne-foss/ne-system.git
 cd ne-system
