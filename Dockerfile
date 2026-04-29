@@ -4,10 +4,10 @@ FROM debian
 
 RUN apt-get update && apt-get upgrade -y
 
-COPY ./ ./src
-RUN ./src/install.sh
+COPY ./install.sh ./
+RUN ./install.sh
 
-# Expose NeSystem ports.
+# Expose NeSystem ports for file sharing.
 
 # Reserved for NeSystem
 EXPOSE 8080/tcp
