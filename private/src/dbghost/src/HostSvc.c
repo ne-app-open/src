@@ -11,9 +11,9 @@ struct DBG_HOST {
     Char fDbgPath[255];
 };
 
-static struct DBG_HOST* kDbgHost = nullptr;
-static SInt32 kDbgHostEnabled = YES;
-static SInt32 kDbgSignal = kErrorSuccess;
+static _SHARED struct DBG_HOST* kDbgHost = nullptr;
+static _SHARED SInt32 kDbgHostEnabled = YES;
+static _SHARED SInt32 kDbgSignal = kErrorSuccess;
 
 SInt32 NeMain(Void) {
     PrintOut(nullptr, "%s", "Ne.app Debug Host.\rCopyright 2026, Ne.app.\r");
@@ -23,7 +23,7 @@ SInt32 NeMain(Void) {
 
     while (kDbgHostEnabled) {
         /// When the debug host dies, exit the program.
-        if (!kDbgHost) break;
+        if (kDbgHost == nullptr) break;
         /// When the signal goes sour, exit the program.
         if (kDbgSignal == kErrorUnimplemented) break;
     }

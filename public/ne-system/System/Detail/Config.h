@@ -17,4 +17,7 @@
 #include <DiskImage/headers/DiskImage.h>
 #include <LaunchHelpers/headers/Foundation.h>
 
-
+#ifndef _SHARED
+/// @brief Shared attribute for the host pattern.
+#define _SHARED
+#endif
