@@ -4,8 +4,8 @@ FROM debian
 
 RUN apt-get update && apt-get upgrade -y
 
-COPY ./install.sh ./
-RUN ./install.sh
+COPY ./ ./src/
+RUN ./src/install.sh
 
 # Expose NeSystem ports for file sharing.
 
