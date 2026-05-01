@@ -9,11 +9,11 @@ authors:
 identifiers:
   - type: url
     value: 'https://nekernel.org'
-    description: The Ne.app NeSystem Server OS.
+    description: The Ne.app NeSystem Base OS.
 repository-code: 'https://github.com/ne-foss/ne-system'
 url: 'https://nekernel.org'
 abstract: >-
-  The Ne.app system, built upon its papers and frameworks.
+  The Ne.app NeSystem, built upon its papers, concepts, and frameworks.
 keywords:
   - kernel
   - operating-systems
