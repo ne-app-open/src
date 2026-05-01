@@ -16,8 +16,18 @@
 #include <CoreFoundation/headers/Foundation.h>
 #include <DiskImage/headers/DiskImage.h>
 #include <LaunchHelpers/headers/Foundation.h>
+//#include <HostHelpers/headers/Foundation.h>
 
 #ifndef _SHARED
 /// @brief Shared attribute for the host pattern.
 #define _SHARED
 #endif
+
+#ifndef _PRIVATE
+/// @brief Private attribute for the host pattern.
+#define _PRIVATE
+#endif
+
+struct NMessage;
+struct NHost;
+struct NApplication;
