@@ -23,11 +23,11 @@
 #include <libSoundSystem/SoundSystemKit/VirtualMixer.h>
 
 #ifdef _NE_NEED_X11
-#include <System/WindowSystems/X11.h>
+#include <ne-system/System/WindowSystems/X11.h>
 #endif
 
 #ifdef _NE_NEED_WAYLAND
-#include <System/WindowSystems/Wayland.h>
+#include <ne-system/System/WindowSystems/Wayland.h>
 #endif
 
 #endif // _SYSTEM_NE_SYSTEM_H_
