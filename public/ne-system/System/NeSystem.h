@@ -11,7 +11,7 @@
 #include <ne-system/System/Detail/Config.h>
 
 /// @brief POSIX wrapper API
-#include <libPOSIXWrapper/POSIXKit/unistd.h>
+#include <libPOSIX/POSIXKit/unistd.h>
 
 /// @brief IPC API
 #include <libMsg/MsgKit/Server.h>
