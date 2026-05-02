@@ -5,13 +5,18 @@
 
 #pragma once
 
+#ifndef __ne_arch
+#define __ne_arch (0xdeadbeef)
+#warning !! __ne_arch is not defined, set __ne_arch as a warning value. !!
+#endif
+
 #define _ARCH __ne_arch
 
 #define _SUBSYSTEM_NET 0x1000
 #define _SUBSYSTEM_DDK 0x1000
 #define _SUBSYSTEM_SYS 0x1000
 
-#define _NEKERNEL 202603L
+#define _NEKERNEL (202603L)
 
 #include <CoreFoundation/headers/Foundation.h>
 #include <DiskImage/headers/DiskImage.h>
@@ -28,6 +33,6 @@
 #define _PRIVATE
 #endif
 
-struct NMessage;
-struct NHost;
-struct NApplication;
+struct _PRIVATE NMSG;
+struct _PRIVATE NHOST;
+struct _PRIVATE NAPP;
