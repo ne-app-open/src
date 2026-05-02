@@ -1,4 +1,4 @@
-# Copyright 2026, Amlal El Mahrouss and Ne.app contributors.
+# Copyright 2026, Amlal El Mahrouss and contributors.
 # NeSystem is licensed under Apache-2.0.
 # SPDX-Identifier: Apache-2.0
 
