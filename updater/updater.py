@@ -12,8 +12,14 @@ class UpdateFunctor:
         subprocess.call(["git", "-C", "private/src/ne-kernel", "pull"])
         subprocess.call(["git", "-C", "private/src/nectar", "pull"])
         subprocess.call(["git", "-C", "private/src/ne-build", "pull"])
+        subprocess.call(["git", "-C", "private/src/tier0", "pull"])
         subprocess.call(["git", "-C", "private/doc/papers", "pull"])
-        subprocess.call(["git", "add", "private/src/ne-kernel", "private/src/nectar", "private/doc/papers", "private/src/ne-build"])
+        subprocess.call(["git", "add", 
+         "private/src/ne-kernel",
+         "private/src/tier0"
+         "private/src/nectar", 
+         "private/doc/papers", 
+         "private/src/ne-build"])
         if (os.environ.get('UPDATER_NO_COMMIT', False) == False):
             subprocess.call(["git", "commit", "-s"])
 
