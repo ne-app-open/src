@@ -6,8 +6,6 @@
 #ifndef _SYSTEM_NE_SYSTEM_H_
 #define _SYSTEM_NE_SYSTEM_H_
 
-#define _NE_SYSTEM (202603L)
-
 #include <ne-system/System/Detail/Config.h>
 
 /// @brief POSIX wrapper API

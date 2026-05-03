@@ -16,12 +16,14 @@
 #define _SUBSYSTEM_DDK 0x1000
 #define _SUBSYSTEM_SYS 0x1000
 
-#define _NEKERNEL (202603L)
+#define _NE_SYSTEM (202605L)
+#define _NEKERNEL (202605L)
 
 #include <CoreFoundation/headers/Foundation.h>
 #include <DiskImage/headers/DiskImage.h>
 #include <LaunchHelpers/headers/Foundation.h>
 //#include <HostHelpers/headers/Foundation.h>
+//#include <AppFoundation/headers/Foundation.h>
 
 #ifndef _SHARED
 /// @brief Shared attribute for the host pattern.
@@ -33,6 +35,7 @@
 #define _PRIVATE
 #endif
 
+/// @brief They shall not be exposed, _PRIVATE will be parsed by tier0's tools to complete their definitions.
 struct _PRIVATE NMSG;
 struct _PRIVATE NHOST;
 struct _PRIVATE NAPP;
