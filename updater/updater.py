@@ -16,7 +16,7 @@ class UpdateFunctor:
         subprocess.call(["git", "-C", "private/doc/papers", "pull"])
         subprocess.call(["git", "add", 
          "private/src/ne-kernel",
-         "private/src/tier0"
+         "private/src/tier0",
          "private/src/nectar", 
          "private/doc/papers", 
          "private/src/ne-build"])
