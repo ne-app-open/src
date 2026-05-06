@@ -10,3 +10,6 @@
 [submodule "private/doc/papers"]
 	path = private/doc/papers
 	url = git@github.com:ne-app-ci/papers.git
+[submodule "private/src/tier0-nectar"]
+	path = private/src/tier0-nectar
+	url = git@github.com:ne-foss/tier0.git
