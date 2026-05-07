@@ -21,7 +21,7 @@ class UpdateFunctor:
          "private/doc/papers", 
          "private/src/ne-build"])
         if (os.environ.get('UPDATER_NO_COMMIT', False) == False):
-            subprocess.call(["git", "commit", "-s"])
+            subprocess.call(["git", "commit", "-s", "-S"])
 
 def update():
     UpdateFunctor()
