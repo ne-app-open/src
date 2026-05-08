@@ -6,30 +6,32 @@
 #include <ne-system/System/NeSystem.h>
 
 struct DBG_HOST {
-    SInt32 fDbgSocket;
-    SInt32 fDbgType;
-    Char fDbgPath[255];
+  SInt32 fDbgSocket;
+  SInt32 fDbgType;
+  Char   fDbgPath[255];
 };
 
-static _SHARED struct DBG_HOST* kDbgHost = nullptr;
-static _SHARED SInt32 kDbgHostEnabled = YES;
-static _SHARED SInt32 kDbgSignal = kErrorSuccess;
+static _SHARED struct DBG_HOST* kDbgHost        = nullptr;
+static _SHARED SInt32           kDbgHostEnabled = YES;
+static _SHARED SInt32           kDbgSignal      = kErrorSuccess;
 
 SInt32 NeMain(Void) {
-    PrintOut(nullptr, "%s", "Ne.app Debug Host.\rCopyright 2026, Ne.app.\r");
+  PrintOut(nullptr, "%s", "Ne.app Debug Host.\rCopyright 2026, Ne.app.\r");
 
-    kDbgHost = MmCreateHeap(sizeof(struct DBG_HOST), 0);
-    if (!kDbgHost) return kErrorInvalidData;
+  kDbgHost = MmCreateHeap(sizeof(struct DBG_HOST), 0);
+  if (!kDbgHost) return kErrorInvalidData;
 
-    while (kDbgHostEnabled) {
-        /// When the debug host dies, exit the program.
-        if (kDbgHost == nullptr) break;
-        /// When the signal goes sour, exit the program.
-        if (kDbgSignal == kErrorUnimplemented) break;
-    }
+  while (kDbgHostEnabled) {
+    /// When the debug host dies, exit the program.
+    if (kDbgHost == nullptr) break;
+    /// When the signal goes sour, exit the program.
+    if (kDbgSignal == kErrorUnimplemented) break;
+  }
 
+  if (kDbgHost) {
     MmDestroyHeap(kDbgHost);
     kDbgHost = nullptr;
+  }
 
-    return kErrorSuccess;
+  return kErrorSuccess;
 }
