@@ -22,10 +22,8 @@ SInt32 NeMain(Void) {
   if (!kDbgHost) return kErrorInvalidData;
 
   while (kDbgHostEnabled) {
-    /// When the debug host dies, exit the program.
-    if (kDbgHost == nullptr) break;
-    /// When the signal goes sour, exit the program.
-    if (kDbgSignal == kErrorUnimplemented) break;
+    if (kDbgSocket->fDbgSocket == 0) break;
+    /// TODO: Business logic.
   }
 
   if (kDbgHost) {
