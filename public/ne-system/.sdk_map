@@ -1,4 +1,6 @@
 [DDK]
 path=Drivers
+desc=The Ne.app NeSystem SDK
 [User]
 path=System
+desc=The Ne.app NeSystem SDK
