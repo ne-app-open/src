@@ -19,17 +19,17 @@ SInt32 NeMain(Void) {
   PrintOut(nullptr, "%s", "Ne.app Debug Host.\rCopyright 2026, Ne.app.\r");
 
   kDbgHost = MmCreateHeap(sizeof(struct DBG_HOST), 0);
-  if (!kDbgHost) return kErrorInvalidData;
+  if (!kDbgHost) return kDbgSignal;
 
   while (kDbgHostEnabled) {
-    if (kDbgSocket->fDbgSocket == 0) break;
+    if (kDbgHost->fDbgSocket == 0) break;
     /// TODO: Business logic.
   }
 
-  if (kDbgHost) {
+  if (kDbgHost != nullptr) {
     MmDestroyHeap(kDbgHost);
     kDbgHost = nullptr;
   }
 
-  return kErrorSuccess;
+  return kDbgSignal;
 }
