@@ -34,8 +34,3 @@
 /// @brief Private attribute for the host pattern.
 #define _PRIVATE
 #endif
-
-/// @brief They shall not be exposed, _PRIVATE will be parsed by tier0's tools to complete their definitions.
-struct _PRIVATE NMSG;
-struct _PRIVATE NHOST;
-struct _PRIVATE NAPP;
