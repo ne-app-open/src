@@ -8,7 +8,7 @@ echo "==> INSTALLING NESYSTEM..."
 set ARCH=x64
 set PROFILE=release
 
-git clone --recurse-submodules -j8 https://github.com/ne-foss/ne-system.git
+git clone --recurse-submodules -j8 https://github.com/ne-foss/src.git
 cd ne-system
 git submodule update --init
 set UPDATER_NO_COMMIT=1

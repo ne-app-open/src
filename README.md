@@ -1,13 +1,7 @@
 <!-- ReadMe of the NeSystem -->
 
-# 🍯 The NeSystem Modules.
-
 <a href="LICENSE"><img src="https://img.shields.io/badge/LICENSE-Apache--2.0-blue.svg?style=for-the-badge" alt="LICENSE"></a>
-![GitHub Repo Stars](https://img.shields.io/github/stars/ne-foss-org/ne-system?style=for-the-badge)
-
-## About
-
-The Ne System is a collection of system modules written in modern C++.
+![GitHub Repo Stars](https://img.shields.io/github/stars/ne-foss-org/src?style=for-the-badge)
 
 ## Getting Started
 
@@ -67,6 +61,6 @@ More information soon.
 
 ## Community
 
-Ne.app has a [Discord](https://discord.gg/uD76Qweght) for contributors.
+Ne.app has a community [discord](https://discord.gg/uD76Qweght) for contributors and announcements.
 
 ###### Copyright 2022-2026, Amlal El Mahrouss. Licensed under Apache 2.0.

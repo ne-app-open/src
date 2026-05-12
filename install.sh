@@ -11,7 +11,7 @@ sudo apt install nasm mingw-w64 x86_64-w64-mingw32-g++ x86_64-w64-mingw32-gcc bu
 ARCH=x64
 PROFILE=release
 
-git clone --recurse-submodules -j8 https://github.com/ne-foss/ne-system.git
+git clone --recurse-submodules -j8 https://github.com/ne-foss/src.git
 cd ne-system
 git submodule update --init
 export UPDATER_NO_COMMIT=1

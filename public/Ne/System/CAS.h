@@ -1,12 +1,16 @@
 // SPDX-License-Identifier: Apache-2.0
 // Copyright 2026, Amlal El Mahrouss (amlal@nekernel.org)
 // Licensed under the Apache License, Version 2.0 (see LICENSE file)
-// Official repository: https://github.com/ne-foss/ne-system
+// Official repository: https://github.com/ne-foss/src
 
-#ifndef _SYSTEM_NE_SYSTEM_H_
-#define _SYSTEM_NE_SYSTEM_H_
+#ifndef _NE_CORE_SUBSYSTEM_H_
+#define _NE_CORE_SUBSYSTEM_H_
 
-#include <ne-system/System/Detail/Config.h>
+#ifndef _CAS
+#define _CAS (202605L)
+#endif
+
+#include <Ne/System/Detail/Config.h>
 
 /// @brief POSIX wrapper API
 #include <libPOSIX/POSIXKit/unistd.h>
@@ -21,11 +25,11 @@
 #include <libSoundSystem/SoundSystemKit/VirtualMixer.h>
 
 #ifdef _NE_NEED_X11
-#include <ne-system/System/WindowSystems/X11.h>
+#include <Ne/System/WindowSystems/X11.h>
 #endif
 
 #ifdef _NE_NEED_WAYLAND
-#include <ne-system/System/WindowSystems/Wayland.h>
+#include <Ne/System/WindowSystems/Wayland.h>
 #endif
 
-#endif // _SYSTEM_NE_SYSTEM_H_
+#endif // _NE_CORE_SUBSYSTEM_H_
