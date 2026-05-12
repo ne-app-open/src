@@ -24,12 +24,4 @@
 /// @brief Sound mixer API
 #include <libSoundSystem/SoundSystemKit/VirtualMixer.h>
 
-#ifdef _NE_NEED_X11
-#include <Ne/System/WindowSystems/X11.h>
-#endif
-
-#ifdef _NE_NEED_WAYLAND
-#include <Ne/System/WindowSystems/Wayland.h>
-#endif
-
 #endif // _NE_CORE_SUBSYSTEM_H_
