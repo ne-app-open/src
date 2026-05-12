@@ -12,7 +12,7 @@ ARCH=x64
 PROFILE=release
 
 git clone --recurse-submodules -j8 https://github.com/ne-foss/src.git
-cd ne-system
-git submodule update --init
-export UPDATER_NO_COMMIT=1
-./updater.sh
+git clone --recurse-submodules -j8 https://github.com/ne-foss/ne-kernel.git
+
+cd src
+
