@@ -7,6 +7,6 @@
 [submodule "private/src/ne-build"]
 	path = private/src/ne-build
 	url = git@github.com:ne-foss/ne-build.git
-[submodule "private/doc/papers"]
-	path = private/doc/papers
-	url = git@github.com:ne-app-ci/papers.git
+[submodule "private/doc/whitepapers"]
+	path = private/doc/whitepapers
+	url = git@github.com:ne-app-ci/whitepapers.git
