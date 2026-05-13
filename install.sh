@@ -9,7 +9,7 @@ ARCH=x64
 PROFILE=release
 
 SRC=src
-KRNL=ne-kernel
+KRNL=krnl
 NEBUILD=ne-build
 NECTAR=nectar
 

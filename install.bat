@@ -9,7 +9,7 @@ set ARCH=x64
 set PROFILE=release
 
 set SRC=src
-set KRNL=ne-kernel
+set KRNL=krnl
 set NEBUILD=ne-build
 set NECTAR=nectar
 
