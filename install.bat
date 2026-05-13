@@ -1,15 +1,27 @@
 @echo off
 
-echo "==> WELCOME TO THE NESYSTEM INSTALLER."
-echo "==> INSTALLING NESYSTEM..."
+echo "==> NE.APP: WELCOME TO THE NESYSTEM INSTALLER."
+echo "==> NE.APP: INSTALLING DISTRIBUTION..."
 
 :: To be used for: curl -fsSL https://setup.nekernel.org
 
 set ARCH=x64
 set PROFILE=release
 
-git clone --recurse-submodules -j8 https://github.com/ne-foss/src.git
-git clone --recurse-submodules -j8 https://github.com/ne-foss/ne-kernel.git
+set SRC=src
+set KRNL=ne-kernel
+set NEBUILD=ne-build
+set NECTAR=nectar
+
+set DIST=ne_system-%ARCH%-%PROFILE%
+
+mkdir %DIST%
+
+git clone --recurse-submodules -j8 https://github.com/ne-foss/%SRC%.git %DIST%\%SRC%
+git clone --recurse-submodules -j8 https://github.com/ne-foss/%KRNL%.git %DIST%\%KRNL%
+git clone --recurse-submodules -j8 https://github.com/ne-foss/%NEBUILD%.git %DIST%\%NEBUILD%
+git clone --recurse-submodules -j8 https://github.com/ne-foss/%NECTAR%.git %DIST%\%NECTAR%
 
 cd src
 
+echo "==> DONE."

@@ -1,0 +1,5 @@
+-Ipublic/
+-I../ne-kernel/private/
+-I../ne-kernel/public/frameworks
+-xc++
+-std=c++20
