@@ -17,9 +17,11 @@ struct DBG_HOST {
 
 /// ======= PIN OUT =======
 /// \brief This applies only if DBGHOST is used via RS-422
-/// /// /// GND: 0
+/// GND: 0
 /// DIN+: 1
 /// DIN-: 2
 /// DOUT+: 3
 /// DOUT-: 4
 /// VCC: 5
+/// ======= END PIN OUT =======
+
