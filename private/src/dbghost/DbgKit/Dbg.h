@@ -16,8 +16,8 @@ struct DBG_HOST {
 };
 
 /// ======= PIN OUT =======
-/// \brief This applies only if DBGHOST is used via TTL.
-/// GND: 0
+/// \brief This applies only if DBGHOST is used via RS-422
+/// /// /// GND: 0
 /// DIN+: 1
 /// DIN-: 2
 /// DOUT+: 3
