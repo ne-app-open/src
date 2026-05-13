@@ -27,16 +27,6 @@ Please follow the the tutorials in `/private/src/refs` to get started.
 curl -fsSL http://install.nekernel.org | sh
 ```
 
-### Full Installation
-
-Please clone the repository using Git:
-
-```sh
-git clone --recurse-submodules -j8 https://github.com/ne-foss/src.git
-```
-
-And have a look at the wiki, docs, and primers. They have valuable resources to get started.
-
 ## Primers
 
 The primers are available at:
