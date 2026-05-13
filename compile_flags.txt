@@ -1,7 +1,7 @@
 -Ipublic/
 -Iprivate/src/dbghost
 -Iprivate/src/consolehost
--I../ne-kernel/private/
--I../ne-kernel/public/frameworks
+-I../krnl/private/
+-I../krnl/public/frameworks
 -xc++
 -std=c++20

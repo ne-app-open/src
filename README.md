@@ -41,7 +41,7 @@ Designed to be make onboarding easier.
 There is three main reasons for this repository's existence:
 
 - Hold the system in a single repository.
-- Easier path resolutions based on a virtual root path, i.e (../ne-kernel -> /private/src/ne-kernel)
+- Easier path resolutions based on a virtual root path, i.e (../krnl -> /private/src/krnl)
 - Easier cycles and vetting for Ne.app releases.
 
 ## Packaging
