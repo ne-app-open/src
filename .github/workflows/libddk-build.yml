@@ -22,5 +22,5 @@ jobs:
     - name: Install QEMU-IMG
       run: sudo apt update && sudo apt install qemu-utils
     - name: Attempt Kernel Build
-      run: mkdir tmp && sudo apt install g++-mingw-w64-x86-64 gcc-mingw-w64 nasm && git clone https://github.com/ne-foss-org/krnl.git tmp/kernel && cd tmp/kernel/private/libDDK && nebuild libDDK.json
+      run: mkdir tmp && sudo apt install g++-mingw-w64-x86-64 gcc-mingw-w64 nasm && git clone https://github.com/ne-foss/krnl.git tmp/kernel && cd tmp/kernel/private/libDDK && nebuild libDDK.json
 

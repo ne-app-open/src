@@ -22,4 +22,4 @@ jobs:
     - name: Install QEMU-IMG
       run: sudo apt update && sudo apt install qemu-utils
     - name: Attempt Kernel Setup
-      run: mkdir tmp && git clone https://github.com/ne-foss-org/krnl.git tmp/kernel && cd tmp/kernel && sudo ./scripts/setup_x64_project.sh
+      run: mkdir tmp && git clone https://github.com/ne-foss/krnl.git tmp/kernel && cd tmp/kernel && sudo ./scripts/setup_x64_project.sh
