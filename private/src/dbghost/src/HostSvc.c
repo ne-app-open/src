@@ -3,13 +3,7 @@
 // Licensed under the Apache License, Version 2.0 (see LICENSE file)
 // Official repository: https://github.com/ne-foss/src
 
-#include <Ne/System/NeSystem.h>
-
-struct DBG_HOST {
-  SInt32 fDbgSocket;
-  SInt32 fDbgType;
-  Char   fDbgPath[255];
-};
+#include <DbgKit/Dbg.h>
 
 static _SHARED struct DBG_HOST* kDbgHost        = nullptr;
 static _SHARED SInt32           kDbgHostEnabled = YES;

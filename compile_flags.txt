@@ -1,4 +1,6 @@
 -Ipublic/
+-Iprivate/src/dbghost
+-Iprivate/src/consolehost
 -I../ne-kernel/private/
 -I../ne-kernel/public/frameworks
 -xc++
