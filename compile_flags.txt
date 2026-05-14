@@ -2,6 +2,11 @@
 -Iprivate/src/dbghost
 -Iprivate/src/consolehost
 -I../krnl/private/
+-I../krnl/private/libSystem
+-I../krnl/private/libPOSIX
+-I../krnl/private/libPThread
+-I../krnl/private/libDDK
 -I../krnl/public/frameworks
 -xc++
 -std=c++20
+-D__NEOSKRNL__

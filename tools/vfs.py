@@ -10,7 +10,7 @@ import sys
     The vfs tool resolves a specific module according to a ROOT_VFS path.
 """
 
-ROOT_VFS='./private/src/'
+ROOT_VFS='../'
 
 def vfs_resolve(path):
     return ROOT_VFS + path

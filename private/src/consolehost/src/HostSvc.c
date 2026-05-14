@@ -3,7 +3,7 @@
 // Licensed under the Apache License, Version 2.0 (see LICENSE file)
 // Official repository: https://github.com/ne-foss/src
 
-#include <Ne/System/NeSystem.h>
+#include <Ne/System/CAS.h>
 
 SInt32 NeMain(Void) {
     return kErrorSuccess;
