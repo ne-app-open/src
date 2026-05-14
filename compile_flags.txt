@@ -5,6 +5,8 @@
 -I../krnl/private/libSystem
 -I../krnl/private/libPOSIX
 -I../krnl/private/libPThread
+-I../krnl/private/libThread
+-I../krnl/private/libMsg
 -I../krnl/private/libDDK
 -I../krnl/public/frameworks
 -xc++

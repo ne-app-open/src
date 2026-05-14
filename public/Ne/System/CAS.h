@@ -12,16 +12,10 @@
 
 #include <Ne/System/Detail/Config.h>
 
-/// @brief POSIX wrapper API
-#include <libPOSIX/POSIXKit/unistd.h>
-
-/// @brief IPC API
-#include <libMsg/MsgKit/Server.h>
-
-/// @brief System calls API
-#include <libSystem/SystemKit/System.h>
-
-/// @brief Sound mixer API
-#include <libSoundSystem/SoundSystemKit/VirtualMixer.h>
+#include <POSIXKit/unistd.h>
+#include <MsgKit/Server.h>
+#include <SystemKit/System.h>
+#include <PThreadKit/pthread.h>
+#include <ThreadKit/Thread.h>
 
 #endif // _NE_CORE_SUBSYSTEM_H_

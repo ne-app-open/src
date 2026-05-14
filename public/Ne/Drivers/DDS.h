@@ -3,9 +3,13 @@
 // Licensed under the Apache License, Version 2.0 (see LICENSE file)
 // Official repository: https://git.nekernel.org/src
 
-#ifndef _NE_DDK_DDK_H_
-#define _NE_DDK_DDK_H_
+#ifndef _NE_DDK_DDS_H_
+#define _NE_DDK_DDS_H_
 
 #include <Ne/Drivers/Detail/Config.h>
 
-#endif // _NE_DDK_DDK_H_
+#ifndef _DDS
+#define _DDS (202605L)
+#endif
+
+#endif // _NE_DDK_DDS_H_

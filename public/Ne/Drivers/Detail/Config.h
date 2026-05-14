@@ -14,6 +14,6 @@
 
 #define _NEKERNEL 202603L
 
-#include <libDDK/DriverKit/DriverKit.h>
+#include <DriverKit/DriverKit.h>
 
 #endif
