@@ -5,6 +5,6 @@
 
 #include <Ne/System/CAS.h>
 
-SInt32 NeMain(Void) {
+SInt32 main(SInt32 argc, Char** argv) {
     return kErrorSuccess;
 }
