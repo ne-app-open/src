@@ -10,7 +10,7 @@ set PROFILE=release
 
 set SRC=src
 set KRNL=krnl
-set NEBUILD=ne-build
+set NEBUILD=bld
 set NECTAR=nectar
 
 set DIST=ne_system-%ARCH%-%PROFILE%

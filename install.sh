@@ -10,7 +10,7 @@ PROFILE=release
 
 SRC=src
 KRNL=krnl
-NEBUILD=ne-build
+NEBUILD=bld
 NECTAR=nectar
 
 DIST=ne_system-${ARCH}-${PROFILE}
