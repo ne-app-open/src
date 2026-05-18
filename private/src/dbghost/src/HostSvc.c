@@ -5,14 +5,13 @@
 
 #include <DbgKit/Dbg.h>
 
-static _SHARED struct DBG_HOST* kDbgHost        = nullptr;
-static _SHARED SInt32           kDbgHostEnabled = YES;
-static _SHARED SInt32           kDbgSignal      = kErrorSuccess;
-
 SInt32 main(SInt32 argc, Char** argv) {
-  PrintOut(nullptr, "%s", "Ne.app Debug Host.\rCopyright 2026, Ne.app.\r");
+  LIBSYS_UNUSED(argc);
+  LIBSYS_UNUSED(argv);
 
-  kDbgHost = MmCreateHeap(sizeof(struct DBG_HOST), 0);
+  PrintOut(nullptr, "%s", "ne.app Debug Host Service.\r");
+
+  kDbgHost = (struct DBG_HOST*)MmCreateHeap(sizeof(struct DBG_HOST), 0);
   if (!kDbgHost) return kDbgSignal;
 
   while (kDbgHostEnabled) {

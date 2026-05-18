@@ -6,14 +6,7 @@
 #pragma once
 
 #include <Ne/System/CAS.h>
-
-struct DBG_HOST;
-
-struct DBG_HOST {
-  SInt32 fDbgSocket;
-  SInt32 fDbgType;
-  Char   fDbgPath[255];
-};
+#include <SystemKit/Err.h>
 
 /// ======= PIN OUT =======
 /// \brief This applies only if DBGHOST is used via RS-422
@@ -25,3 +18,16 @@ struct DBG_HOST {
 /// VCC: 5
 /// ======= END PIN OUT =======
 
+struct DBG_HOST;
+
+struct DBG_HOST _FINAL {
+  SInt32 fDbgSocket;
+  SInt32 fDbgType;
+  Char   fDbgPath[255];
+};
+
+typedef struct DBG_HOST DBG_HOST_T, *PDBG_HOST_T;
+
+static inline _SHARED PDBG_HOST_T kDbgHost        = nullptr;
+static inline _SHARED SInt32      kDbgHostEnabled = YES;
+static inline _SHARED SInt32      kDbgSignal      = kErrorSuccess;

@@ -34,3 +34,11 @@
 /// @brief Private attribute for the host pattern.
 #define _PRIVATE
 #endif
+
+#ifndef _FINAL
+#ifdef __cplusplus
+#define _FINAL final
+#else
+#define _FINAL
+#endif
+#endif

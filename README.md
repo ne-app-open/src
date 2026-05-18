@@ -15,7 +15,7 @@ You will need:
 - `MinGW` or `Clang`, depending on the HAL/target ISA.
 - `CoreUtils`, for the core compiler utilities.
 
-Please follow the the tutorials in `/private/src/refs` to get started.
+(Please follow the instructions in `/private/src/refs` and wiki to get started)
 
 ### Quick Install
 
