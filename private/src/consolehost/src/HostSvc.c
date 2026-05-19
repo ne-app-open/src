@@ -7,10 +7,10 @@
 #include <SystemKit/Err.h>
 
 SInt32 main(SInt32 argc, Char** argv) {
-    LIBSYS_UNUSED(argc);
-    LIBSYS_UNUSED(argv);
+  LIBSYS_UNUSED(argc);
+  LIBSYS_UNUSED(argv);
 
   PrintOut(nullptr, "%s", "ne.app Console Host Service.\r");
 
-    return kErrorSuccess;
+  return kErrorSuccess;
 }
