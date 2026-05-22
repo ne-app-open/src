@@ -20,7 +20,7 @@
 
 struct DBG_HOST;
 
-struct DBG_HOST _FINAL {
+struct _PRIVATE DBG_HOST _FINAL {
   SInt32 fDbgSocket;
   SInt32 fDbgType;
   Char   fDbgPath[255];
