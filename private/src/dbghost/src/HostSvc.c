@@ -4,6 +4,11 @@
 // Official repository: https://github.com/ne-foss/src
 
 #include <DbgKit/Dbg.h>
+#include <SystemKit/Syscall.h>
+
+#ifndef kDbgHostServiceLoopName
+#define kDbgHostServiceLoopName "_DbgHostServiceLoop"
+#endif
 
 SInt32 main(SInt32 argc, Char** argv) {
   LIBSYS_UNUSED(argc);
@@ -16,7 +21,7 @@ SInt32 main(SInt32 argc, Char** argv) {
 
   while (kDbgHostEnabled) {
     if (kDbgHost->fDbgSocket == 0) break;
-    /// TODO: Business logic.
+    nesys_syscall_arg_1(nesys_hash_64(kDbgHostServiceLoopName));
   }
 
   if (kDbgHost != nullptr) {

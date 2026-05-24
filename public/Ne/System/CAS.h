@@ -12,10 +12,8 @@
 
 #include <Ne/System/Detail/Config.h>
 
-#include <POSIXKit/unistd.h>
-#include <MsgKit/Server.h>
-#include <SystemKit/System.h>
-#include <PThreadKit/pthread.h>
-#include <ThreadKit/Thread.h>
+#define CasCreateEvent(event_name) EvtAddListener(event_name, nullptr)
+#define CasRemoveEvent(event_name) EvtRemoveListener(event_name, nullptr)
+#define CasDispatchEvent(event_name, event_data) EvtDispatchEvent(event_name, event_data)
 
 #endif // _NE_CORE_SUBSYSTEM_H_
