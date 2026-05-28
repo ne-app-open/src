@@ -9,7 +9,7 @@ Please follow the instructions below to get started:
 
 ## Building
 
-You will need:
+You will need
 
 - `nebuild`, the in-house build system.
 - `MinGW` or `Clang`, depending on the HAL/target ISA.
@@ -27,7 +27,7 @@ You will need:
 curl -fsSL http://install.nekernel.org | sh
 ```
 
-## Primers
+## On the primers
 
 The primers are available at:
 
@@ -36,7 +36,7 @@ The primers are available at:
 
 Designed to be make onboarding easier.
 
-## Design Rationale
+## Design rationale
 
 There is three main reasons for this repository's existence:
 
@@ -46,11 +46,10 @@ There is three main reasons for this repository's existence:
 
 ## Packaging
 
-We plan to host a package registry for NeSystem and ANT.
-More information soon.
+We plan to host a package registry for NeSystem and ant HPC systems.
 
 ## Community
 
-Ne.app has a community [discord](https://discord.gg/uD76Qweght) for contributors and announcements.
+ne.app has a community [discord](https://discord.gg/uD76Qweght) for contributors and announcements.
 
 ###### Copyright 2022-2026, Amlal El Mahrouss. Licensed under Apache 2.0.
