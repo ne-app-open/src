@@ -7,6 +7,9 @@
 
 #include <Ne/System/CAS.h>
 #include <SystemKit/Err.h>
+#include <SystemKit/Syscall.h>
+
+#define kNeInvalidDbgSocket (0L)
 
 /// ======= PIN OUT =======
 /// \brief This applies only if DBGHOST is used via RS-422

@@ -15,4 +15,7 @@
 #include <Ne/System/Detail/Config.h>
 #include <Ne/System/CAS.h>
 
+struct LWAS_HOST;
+struct LWAS_CLIENT;
+
 #endif // _NE_LWAS_SUBSYSTEM_H_

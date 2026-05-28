@@ -3,13 +3,7 @@
 // Licensed under the Apache License, Version 2.0 (see LICENSE file)
 // Official repository: https://github.com/ne-foss/src
 
-#include <CHSKit/Console.h>
+#pragma once
 
-SInt32 main(SInt32 argc, Char** argv) {
-  LIBSYS_UNUSED(argc);
-  LIBSYS_UNUSED(argv);
-
-  PrintOut(nullptr, "%s", "ne.app Console Host Service.\r");
-
-  return kErrorSuccess;
-}
+#include <Ne/System/CAS.h>
+#include <SystemKit/Err.h>
