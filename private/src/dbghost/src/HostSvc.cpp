@@ -13,7 +13,7 @@ SInt32 main(SInt32 argc, Char** argv) {
   LIBSYS_UNUSED(argc);
   LIBSYS_UNUSED(argv);
 
-  PrintOut(nullptr, "%s", "ne.app Debug Host Service.\r");
+  PrintOut(nullptr, "%s", "NE-APP.EU Debug Host Service.\r");
 
   kDbgHost = (struct DBG_HOST*)MmCreateHeap(sizeof(struct DBG_HOST), 0);
   if (!kDbgHost) return kDbgSignal;

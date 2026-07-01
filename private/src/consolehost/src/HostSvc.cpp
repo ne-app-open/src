@@ -9,7 +9,7 @@ SInt32 main(SInt32 argc, Char** argv) {
   LIBSYS_UNUSED(argc);
   LIBSYS_UNUSED(argv);
 
-  PrintOut(nullptr, "%s", "ne.app Console Host Service.\r");
+  PrintOut(nullptr, "%s", "NE-APP.EU Console Host Service.\r");
 
   return kErrorSuccess;
 }

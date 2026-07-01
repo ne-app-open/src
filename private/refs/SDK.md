@@ -1,4 +1,4 @@
-# Getting Started: The ne.app System SDK.
+# Getting Started: The NE-APP.EU System SDK.
 
 ## Abstract
 
