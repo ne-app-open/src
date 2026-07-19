@@ -9,6 +9,14 @@
 -I../krnl/private/libMsg
 -I../krnl/private/libDDK
 -I../krnl/public/frameworks
+-I../nekrnl/private/
+-I../nekrnl/private/libSystem
+-I../nekrnl/private/libPOSIX
+-I../nekrnl/private/libPThread
+-I../nekrnl/private/libThread
+-I../nekrnl/private/libMsg
+-I../nekrnl/private/libDDK
+-I../nekrnl/public/frameworks
 -xc++
 -std=c++20
 -D__NEOSKRNL__
