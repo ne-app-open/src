@@ -20,7 +20,7 @@ DIST=src-${ARCH}-${PROFILE}
 
 mkdir ${DIST}
 
-${GIT} ${FLAGS} https://github.com/ne-foss/${SRC}.git ${DIST}/${SRC}
-${GIT} ${FLAGS} https://github.com/ne-foss/${KRNL}.git ${DIST}/${KRNL}
-${GIT} ${FLAGS} https://github.com/ne-foss/${NEBUILD}.git ${DIST}/${NEBUILD}
-${GIT} ${FLAGS} https://github.com/ne-foss/${NECTAR}.git ${DIST}/${NECTAR}
+${GIT} ${FLAGS} https://github.com/ne-app-eu/${SRC}.git ${DIST}/${SRC}
+${GIT} ${FLAGS} https://github.com/ne-app-eu/${KRNL}.git ${DIST}/${KRNL}
+${GIT} ${FLAGS} https://github.com/ne-app-eu/${NEBUILD}.git ${DIST}/${NEBUILD}
+${GIT} ${FLAGS} https://github.com/ne-app-eu/${NECTAR}.git ${DIST}/${NECTAR}
