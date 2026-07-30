@@ -50,6 +50,6 @@ We plan to host a package registry for NeSystem and ant HPC systems.
 
 ## Community
 
-NE-APP.EU has a community [discord](https://discord.gg/uD76Qweght) for contributors and announcements.
+Ne.app has a community [discord](https://discord.gg/uD76Qweght) for contributors and announcements.
 
 ###### Copyright 2022-2026, Amlal El Mahrouss. Licensed under Apache 2.0.
