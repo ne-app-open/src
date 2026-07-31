@@ -4,7 +4,11 @@ FROM debian
 
 RUN apt-get update && apt-get upgrade -y
 
+# Blobs for private NeSystem parts.
+RUN mkdir /blobs
+
 COPY ./ ./src/
+
 
 # Expose ports for file sharing/debugging.
 
