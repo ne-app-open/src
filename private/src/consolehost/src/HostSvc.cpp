@@ -5,11 +5,15 @@
 
 #include <CHSKit/Console.h>
 
+IMPORT_C Void CHSOpenConsole(Void);
+
 SInt32 main(SInt32 argc, Char** argv) {
   LIBSYS_UNUSED(argc);
   LIBSYS_UNUSED(argv);
 
-  PrintOut(nullptr, "%s", "Ne.app Console Host Service.\r");
+  PrintOut(nullptr, "%s", "Ne.app Console Host Service for NeSystem.\r");
+
+  CHSOpenConsole();
 
   return kErrorSuccess;
 }
