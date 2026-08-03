@@ -10,7 +10,9 @@
 #define _LWAS (202605L)
 #endif
 
+/// *******************************************************
 /// @brief Local Window Application Subsystem.
+/// *******************************************************
 
 #include <Ne/System/Detail/Config.h>
 #include <Ne/System/CAS.h>

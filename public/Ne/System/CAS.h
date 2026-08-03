@@ -12,6 +12,10 @@
 
 #include <Ne/System/Detail/Config.h>
 
+/// *******************************************************
+/// @brief Common Application Subsystem.
+/// *******************************************************
+
 #define CasCreateEvent(event_name) EvtAddListener(event_name, nullptr)
 #define CasRemoveEvent(event_name) EvtRemoveListener(event_name, nullptr)
 #define CasDispatchEvent(event_name, event_data) EvtDispatchEvent(event_name, event_data)
