@@ -7,7 +7,7 @@ on:
     branches: [ "develop" ]
 
 env:
-  BUILD_TYPE: SANITY
+  BUILD_TYPE: SYS_BUILD_SANITY
 
 jobs:
   build:
@@ -16,4 +16,4 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Attempt NeBuild
-      run: sudo curl https://github.com/ne-foss/ne-build/releases/download/v0.0.6-apple-m1/ne-build-debian -o sanity-test
+      run: sudo curl https://github.com/ne-foss/bld/releases/download/v0.0.6-apple-m1/ne-build-debian -o sanity-test
