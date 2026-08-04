@@ -18,6 +18,7 @@ NECTAR=ncc
 VCS=git
 FLAGS=clone --recurse-submodules -j8
 DIST=src-${ARCH}-${PROFILE}
+GIT=${VCS}
 
 mkdir ${DIST}
 
