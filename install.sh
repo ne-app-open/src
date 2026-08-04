@@ -12,10 +12,9 @@ SRC=src
 KRNL=krnl
 NEBUILD=bld
 NECTAR=ncc
-VCS=git
 FLAGS=clone --recurse-submodules -j8
 DIST=src-${ARCH}-${PROFILE}
-GIT=${VCS}
+GIT=git
 
 mkdir ${DIST}
 
