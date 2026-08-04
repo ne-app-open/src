@@ -16,7 +16,7 @@ set KRNL=krnl
 set NEBUILD=bld
 set NECTAR=ncc
 set VCS=git
-set FLAGS=clone --recurse-submodules -j8
+set FLAGS=--recurse-submodules -j8 clone
 set DIST=src-%ARCH%-%PROFILE%
 
 mkdir %DIST%
