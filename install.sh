@@ -15,7 +15,7 @@ SRC=src
 KRNL=krnl
 NEBUILD=bld
 NECTAR=ncc
-FLAGS=--recurse-submodules -j8 clone
+FLAGS=clone
 DIST=src-${ARCH}-${PROFILE}
 GIT=git
 
