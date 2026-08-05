@@ -1,6 +1,6 @@
 @echo off
 
-echo "==> NE.APP: WELCOME TO THE NESYSTEM INSTALLER."
+echo "==> NE.APP: WELCOME TO THE NESYSTEM CANARY INSTALLER."
 echo "==> NE.APP: INSTALLING DISTRIBUTION..."
 
 echo "==> COMING SOON: THE NESYSTEM WILL SOON BE AVAILABLE AS AN API-FIRST EXPERIENCE."
@@ -21,10 +21,10 @@ set DIST=src-%ARCH%-%PROFILE%
 
 mkdir %DIST%
 
-%VCS% %FLAGS% https://github.com/ne-app-eu/%SRC%.git %DIST%\%SRC%
-%VCS% %FLAGS% https://github.com/ne-app-eu/%KRNL%.git %DIST%\%KRNL%
-%VCS% %FLAGS% https://github.com/ne-app-eu/%NEBUILD%.git %DIST%\%NEBUILD%
-%VCS% %FLAGS% https://github.com/ne-app-eu/%NECTAR%.git %DIST%\%NECTAR%
+%VCS% %FLAGS% https://github.com/ne-app-eu/%SRC%.git -b stable %DIST%\%SRC%
+%VCS% %FLAGS% https://github.com/ne-app-eu/%KRNL%.git -b stable %DIST%\%KRNL%
+%VCS% %FLAGS% https://github.com/ne-app-eu/%NEBUILD%.git -b stable %DIST%\%NEBUILD%
+%VCS% %FLAGS% https://github.com/ne-app-eu/%NECTAR%.git -b stable %DIST%\%NECTAR%
 
 cd %DIST%
 

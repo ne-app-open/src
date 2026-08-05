@@ -15,6 +15,6 @@
     "kNeDbgVersionHighest=0x0100",
     "kNeDbgVersionLowest=0x0100"
   ],
-  "description": "The NeSystem Debug Host Service."
+  "description": "The Ne.app NeSystem Debug Host Service."
 }
   

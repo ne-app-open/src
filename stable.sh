@@ -2,7 +2,7 @@
 
 ## To be used for curl -fsSL https://install.nekernel.org | sh
 
-echo "==> NE.APP: WELCOME TO THE NESYSTEM INSTALLER."
+echo "==> NE.APP: WELCOME TO THE NESYSTEM CANARY INSTALLER."
 echo "==> NE.APP: INSTALLING DISTRIBUTION..."
 
 echo "==> COMING SOON: THE NESYSTEM WILL SOON BE AVAILABLE AS AN API-FIRST EXPERIENCE."
@@ -21,10 +21,10 @@ GIT=git
 
 mkdir ${DIST}
 
-${GIT} ${FLAGS} https://github.com/ne-app-eu/${SRC}.git ${DIST}/${SRC}
-${GIT} ${FLAGS} https://github.com/ne-app-eu/${KRNL}.git ${DIST}/${KRNL}
-${GIT} ${FLAGS} https://github.com/ne-app-eu/${NEBUILD}.git ${DIST}/${NEBUILD}
-${GIT} ${FLAGS} https://github.com/ne-app-eu/${NECTAR}.git ${DIST}/${NECTAR}
+${GIT} ${FLAGS} https://github.com/ne-app-eu/${SRC}.git -b stable ${DIST}/${SRC}
+${GIT} ${FLAGS} https://github.com/ne-app-eu/${KRNL}.git -b stable ${DIST}/${KRNL}
+${GIT} ${FLAGS} https://github.com/ne-app-eu/${NEBUILD}.git -b stable ${DIST}/${NEBUILD}
+${GIT} ${FLAGS} https://github.com/ne-app-eu/${NECTAR}.git -b stable ${DIST}/${NECTAR}
 
 cd ${DIST}
 
