@@ -1,4 +1,4 @@
-name: Ne.app Kernel [BUILD]
+name: Ne.app Kernel [BUILD] (x64)
 
 on:
   push:

@@ -1,4 +1,4 @@
-name: Ne.app Debug Host [BUILD]
+name: Ne.app Debug Host [BUILD] (x64)
 
 on:
   push:
@@ -21,7 +21,7 @@ jobs:
       run: nebuild -v
     - name: Install QEMU-IMG
       run: sudo apt update && sudo apt install qemu-utils
-    - name: Attempt Kernel Build
+    - name: Attempt DDK Build
       run: mkdir tmp && sudo apt install g++-mingw-w64-x86-64 gcc-mingw-w64 nasm && git clone https://github.com/ne-foss/krnl.git tmp/kernel && cd tmp/kernel/private/libDDK && nebuild libDDK.json
     - name: Attempt Host Build
       run: cd private/src && cd dbghost && nebuild dbghost.json

@@ -1,4 +1,4 @@
-name: Ne.app libDDK [BUILD]
+name: Ne.app libDDK [BUILD] (x64)
 
 on:
   push:
