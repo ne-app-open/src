@@ -1,0 +1,8 @@
+Please include the copyright headers for the Ne.app NeSystem file:
+
+// SPDX-License-Identifier: Apache-2.0
+// Copyright 2024-2026, Amlal El Mahrouss (amlal@nekernel.org)
+// Licensed under the Apache License, Version 2.0 (see LICENSE file)
+// Official repository: https://github.com/ne-app-eu/src
+
+Otherwise your PR will NOT be merged.
