@@ -14,6 +14,7 @@
 
 /// *******************************************************
 /// @brief Common Application Subsystem.
+/// @note The CAS is a user subsystem abstracting away system calls as well for performance reasons.
 /// *******************************************************
 
 #define CasCreateEvent(event_name) EvtAddListener(event_name, nullptr)
