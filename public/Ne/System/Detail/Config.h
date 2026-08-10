@@ -49,3 +49,9 @@
 #define _FINAL
 #endif
 #endif
+
+/// @brief The Subsystem Information for Program Loader.
+struct _SHARED SUBSYSTEM_INFO_MANIFEST _FINAL {
+	SInt32 fSubsystemTarget;
+	SInt32 fVersion, fFlags, fImageKind;
+};
