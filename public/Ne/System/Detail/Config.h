@@ -55,3 +55,5 @@ struct _SHARED SUBSYSTEM_INFO_MANIFEST _FINAL {
 	SInt32 fSubsystemTarget;
 	SInt32 fVersion, fFlags, fImageKind;
 };
+
+#define SUBSYSTEM_INVALID_TARGET (0)

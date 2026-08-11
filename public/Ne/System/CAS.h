@@ -7,7 +7,7 @@
 #define _NE_CORE_SUBSYSTEM_H_
 
 #ifndef _CAS
-#define _CAS (202605L)
+#define _CAS (202608L)
 #endif
 
 #include <Ne/System/Detail/Config.h>
