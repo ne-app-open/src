@@ -19,7 +19,7 @@
 
 struct LWAS_HOST;
 
-struct LWAS_HOST _FINAL {
+struct _SHARED LWAS_HOST _FINAL {
 	VoidPtr fHandle; /// @brief Mandatory for NeSystem.
 	Char   fPad[8];
 	SInt64 fMagic;

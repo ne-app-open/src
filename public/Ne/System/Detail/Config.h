@@ -54,6 +54,8 @@
 struct _SHARED SUBSYSTEM_INFO_MANIFEST _FINAL {
 	SInt32 fSubsystemTarget;
 	SInt32 fVersion, fFlags, fImageKind;
+	Char fName[FILE_MAX_LEN];
+	SizeT fNameSz;
 };
 
 #define SUBSYSTEM_INVALID_TARGET (0)
