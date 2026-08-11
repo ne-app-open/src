@@ -17,7 +17,7 @@ Please follow the instructions below to get started:
 
 You will need
 
-- `nebuild`, the in-house build system.
+- `nebld`, Ne.app's in-house build system.
 - `MinGW` or `Clang`, depending on the HAL/target ISA.
 - `CoreUtils`, for the core compiler utilities.
 
