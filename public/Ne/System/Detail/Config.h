@@ -50,8 +50,11 @@
 #endif
 #endif
 
+#define SUBSYSTEM_HEADER_MAGIC (0xf000eee)
+
 /// @brief The Subsystem Information for Program Loader.
 struct _SHARED SUBSYSTEM_INFO_MANIFEST _FINAL {
+	SInt32 fMagic;
 	SInt32 fSubsystemTarget;
 	SInt32 fVersion, fFlags, fImageKind;
 	Char fName[FILE_MAX_LEN];
@@ -60,4 +63,8 @@ struct _SHARED SUBSYSTEM_INFO_MANIFEST _FINAL {
 
 #ifndef SUBSYSTEM_INVALID_TARGET
 #define SUBSYSTEM_INVALID_TARGET (0)
+#endif
+
+#ifndef SUBSYSTEM_POSIX_TARGET
+#define SUBSYSTEM_POSIX_TARGET (0x100)
 #endif

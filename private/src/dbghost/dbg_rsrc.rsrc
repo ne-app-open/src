@@ -1,0 +1,25 @@
+#include "CompilerKit/Version.h"
+
+1 VERSIONINFO
+FILEVERSION     1,0,0,0
+PRODUCTVERSION  1,0,0,0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "080904E4"
+    BEGIN
+      VALUE "CompanyName", "Ne.app"
+      VALUE "FileDescription", "Ne.app Debug Host."
+      VALUE "FileVersion", USR_VERSION
+      VALUE "InternalName", "dbghost"
+      VALUE "LegalCopyright", "Copyright (C) 2026 Ne.app. All rights reserved."
+      VALUE "OriginalFilename", "dbghost.exe"
+      VALUE "ProductName", "dbghost"
+      VALUE "ProductVersion", USR_VERSION
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x809, 1252
+  END
+END
