@@ -10,6 +10,11 @@
 #define _PAS (202608L)
 #endif
 
+#include <POSIXKit/POSIX.h>
+#include <POSIXKit/unistd.h>
+#include <PThreadKit/pthread.h>
+#include <PThreadKit/Thread.h>
+
 #ifndef __IDSTRING
 #define __IDSTRING(name, string) STATIC const Char name[] __attribute__((unused)) = string
 #endif
