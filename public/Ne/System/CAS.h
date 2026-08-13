@@ -21,4 +21,11 @@
 #define CasRemoveEvent(event_name) EvtRemoveListener(event_name, nullptr)
 #define CasDispatchEvent(event_name, event_data) EvtDispatchEvent(event_name, event_data)
 
+/// @param sz size of block.
+/// @param flags flags of block.
+IMPORT_C VoidPtr CasAllocateHeap(SizeT sz, SInt32 flags);
+
+/// @param zero_out shall we zero-out the block after it being freed?
+IMPORT_C Void CasDestroyHeap(VoidPtr, SInt32 zero_out);
+
 #endif // _NE_CORE_SUBSYSTEM_H_

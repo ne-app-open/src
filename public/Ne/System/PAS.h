@@ -10,6 +10,9 @@
 #define _PAS (202608L)
 #endif
 
+#include <Ne/System/Detail/Config.h>
+#include <Ne/System/CAS.h>
+
 #include <POSIXKit/POSIX.h>
 #include <POSIXKit/unistd.h>
 #include <PThreadKit/pthread.h>
@@ -22,5 +25,12 @@
 #ifndef __COPYRIGHT
 #define __COPYRIGHT(s) __IDSTRING(copyright, s)
 #endif  // ifndef __COPYRIGHT
+
+/// @param sz size of block.
+/// @param flags flags of block.
+IMPORT_C VoidPtr CasSbrk(SizeT sz, SInt32 flags);
+
+/// @param zero_out shall we zero-out the block after it being freed?
+IMPORT_C Void CasSbrkDestroy(VoidPtr, SInt32 zero_out);
 
 #endif

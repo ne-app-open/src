@@ -14,8 +14,8 @@
 /// @brief Local Window Application Subsystem.
 /// *******************************************************
 
-#include <Ne/System/CAS.h>
 #include <Ne/System/Detail/Config.h>
+#include <Ne/System/CAS.h>
 
 struct LHANDLE;
 
