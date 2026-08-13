@@ -1,0 +1,20 @@
+{
+  "compiler_path": "x86_64-w64-mingw32-gcc",
+  "compiler_std": "c++20",
+  "headers_path": [ "../", "./", "../../../public/" ],
+  "sources_path": [ "src/*.cpp" ],
+  "output_name": "./dist/basesrv.exe",
+  "compiler_flags": [
+    "-ffreestanding",
+    "-fno-rtti",
+    "-fno-exceptions",
+    "-Wl,--subsystem=17"
+  ],
+  "cpp_macros": [
+    "kNeBaseVersion=0x0100",
+    "kNeBaseVersionHighest=0x0100",
+    "kNeBaseVersionLowest=0x0100"
+  ],
+  "description": "The Ne.app NeSystem Base Server."
+}
+  
