@@ -52,10 +52,10 @@ There is three main reasons for this repository's existence:
 
 ## Packaging
 
-We plan to host a package registry for NeSystem and ant HPC systems.
+We plan to host a package registry for NeSystem and ANT. Stay tuned!
 
 ## Community
 
 Ne.app has a community [discord](https://discord.gg/uD76Qweght) for contributors and announcements.
 
-###### Copyright 2022-2026, Amlal El Mahrouss. Licensed under Apache 2.0.
+###### Copyright 2022-2026, Amlal El Mahrouss and Ne.app. Licensed under Apache 2.0.
