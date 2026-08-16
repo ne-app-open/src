@@ -21,10 +21,10 @@ set DIST=src-%ARCH%-%PROFILE%
 
 mkdir %DIST%
 
-%VCS% %FLAGS% https://github.com/ne-app-eu/%SRC%.git %DIST%\%SRC%
-%VCS% %FLAGS% https://github.com/ne-app-eu/%KRNL%.git %DIST%\%KRNL%
-%VCS% %FLAGS% https://github.com/ne-app-eu/%NEBUILD%.git %DIST%\%NEBUILD%
-%VCS% %FLAGS% https://github.com/ne-app-eu/%NECTAR%.git %DIST%\%NECTAR%
+%VCS% %FLAGS% https://github.com/ne-app-open/%SRC%.git %DIST%\%SRC%
+%VCS% %FLAGS% https://github.com/ne-app-open/%KRNL%.git %DIST%\%KRNL%
+%VCS% %FLAGS% https://github.com/ne-app-open/%NEBUILD%.git %DIST%\%NEBUILD%
+:: %VCS% %FLAGS% https://github.com/ne-app-open/%NECTAR%.git %DIST%\%NECTAR%
 
 cd %DIST%
 

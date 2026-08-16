@@ -21,10 +21,10 @@ GIT=git
 
 mkdir ${DIST}
 
-${GIT} ${FLAGS} https://github.com/ne-app-eu/${SRC}.git --branch stable ${DIST}/${SRC}
-${GIT} ${FLAGS} https://github.com/ne-app-eu/${KRNL}.git --branch stable ${DIST}/${KRNL}
-${GIT} ${FLAGS} https://github.com/ne-app-eu/${NEBUILD}.git --branch stable ${DIST}/${NEBUILD}
-${GIT} ${FLAGS} https://github.com/ne-app-eu/${NECTAR}.git --branch stable ${DIST}/${NECTAR}
+${GIT} ${FLAGS} https://github.com/ne-app-open/${SRC}.git --branch stable ${DIST}/${SRC}
+${GIT} ${FLAGS} https://github.com/ne-app-open/${KRNL}.git --branch stable ${DIST}/${KRNL}
+${GIT} ${FLAGS} https://github.com/ne-app-open/${NEBUILD}.git --branch stable ${DIST}/${NEBUILD}
+${GIT} ${FLAGS} https://github.com/ne-app-open/${NECTAR}.git --branch stable ${DIST}/${NECTAR}
 
 cd ${DIST}
 
