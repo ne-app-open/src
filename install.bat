@@ -14,7 +14,6 @@ set PROFILE=release-efi-pc
 set SRC=src
 set KRNL=krnl
 set NEBUILD=bld
-set NECTAR=ncc
 set VCS=git
 set FLAGS=clone
 set DIST=src-%ARCH%-%PROFILE%
@@ -24,7 +23,6 @@ mkdir %DIST%
 %VCS% %FLAGS% https://github.com/ne-app-open/%SRC%.git %DIST%\%SRC%
 %VCS% %FLAGS% https://github.com/ne-app-open/%KRNL%.git %DIST%\%KRNL%
 %VCS% %FLAGS% https://github.com/ne-app-open/%NEBUILD%.git %DIST%\%NEBUILD%
-%VCS% %FLAGS% https://github.com/ne-app-open/%NECTAR%.git %DIST%\%NECTAR%
 
 cd %DIST%
 
