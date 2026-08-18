@@ -9,8 +9,8 @@
 #define kDbgHostServiceLoopName "_DbgHostServiceLoop"
 #endif
 
-_SHARED ATTRIBUTE(naked) Void dbgi_trap_hang(Void) { asm volatile ("__dbgi_trap_hang_loop: jmp $;"); }
-_SHARED ATTRIBUTE(naked) SInt32 dbgi_trap_break(Void) { asm volatile ("ret"); }
+_SHARED ATTRIBUTE(naked) Void dbgi_trap_hang(Void) { asm __volatile ("__dbgi_trap_hang_loop: jmp __dbgi_trap_hang_loop;"); }
+_SHARED ATTRIBUTE(naked) SInt32 dbgi_trap_break(Void) { asm __volatile ("ret"); }
 
 enum {
   DBG_VKEY_BREAK,

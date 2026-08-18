@@ -4,10 +4,18 @@
   "headers_path": [
     "../",
     "./",
-    "../../../public/"
+    "../../../public/",
+    "../../../../nekrnl/private/libPOSIX/",
+    "../../../../nekrnl/private/libSystem/",
+    "../../../../nekrnl/private/libPThread/",
+    "../../../../nekrnl/private/libThread/",
+    "../../../../nekrnl/private/",
+    "../../../../nekrnl/public/src",
+    "../../../../nekrnl/private/libMsg/"
   ],
   "sources_path": [
-    "src/*.cpp"
+    "src/*.cpp",
+    "psx_rsrc.obj"
   ],
   "output_name": "./dist/posixsrv.exe",
   "compiler_flags": [

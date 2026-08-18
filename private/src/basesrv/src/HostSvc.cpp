@@ -6,10 +6,14 @@
 #include <SystemKit/System.h>
 #include <SystemKit/Err.h>
 
+IMPORT_C SInt32 BsiInstallHost(SInt32, Char**);
+
 SInt32 main(SInt32 argc, Char** argv) {
   LIBSYS_UNUSED(argc);
   LIBSYS_UNUSED(argv);
 
-  auto ret = kErrorSuccess;
+  auto ret = BsiInstallHost(argc, argv);
+  if (ret != kErrorSuccess) return kErrorInvalidData;
+
   return ret;
 }

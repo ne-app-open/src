@@ -19,12 +19,14 @@
 #define _NE_SYSTEM (202605L)
 #define _NEKERNEL (202605L)
 
+#ifdef __cplusplus
 #include <CoreFoundation/headers/Foundation.h>
 #include <DiskImage/headers/DiskImage.h>
 #include <LaunchHelpers/headers/Foundation.h>
 #include <KernelTest/headers/Foundation.h>
 //#include <HostHelpers/headers/Foundation.h>
 //#include <AppFoundation/headers/Foundation.h>
+#endif
 
 #include <POSIXKit/unistd.h>
 #include <MsgKit/Server.h>
