@@ -9,12 +9,12 @@ BEGIN
     BLOCK "080904E4"
     BEGIN
       VALUE "CompanyName", "Ne.app"
-      VALUE "FileDescription", "Ne.app Console Host."
+      VALUE "FileDescription", "Ne.app POSIX Server."
       VALUE "FileVersion", USR_VERSION
-      VALUE "InternalName", "consolehost"
+      VALUE "InternalName", "posixsrv"
       VALUE "LegalCopyright", "Copyright (C) 2026 Ne.app. All rights reserved."
-      VALUE "OriginalFilename", "consolehost.exe"
-      VALUE "ProductName", "consolehost"
+      VALUE "OriginalFilename", "posixsrv.exe"
+      VALUE "ProductName", "posixsrv"
       VALUE "ProductVersion", USR_VERSION
     END
   END

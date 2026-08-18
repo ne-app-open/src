@@ -4,17 +4,27 @@
   "headers_path": [
     "../",
     "./",
-    "../../../public/"
+    "../../../public/",
+    "../../../../nekrnl/private/libPOSIX/",
+    "../../../../nekrnl/private/libSystem/",
+    "../../../../nekrnl/private/libPThread/",
+    "../../../../nekrnl/private/libThread/",
+    "../../../../nekrnl/private/",
+    "../../../../nekrnl/public/src",
+    "../../../../nekrnl/private/libMsg/"
   ],
   "sources_path": [
-    "src/*.c"
+    "src/*.cpp",
+    "chs_rsrc.obj"
   ],
   "output_name": "./dist/consolehost.exe",
   "compiler_flags": [
     "-ffreestanding",
     "-fno-rtti",
     "-fno-exceptions",
-    "-Wl,--subsystem=17"
+    "-Wl,--subsystem=17",
+    "-L../../../../nekrnl/private/libSystem/",
+    "-lSystem"
   ],
   "cpp_macros": [
     "kNeDbgVersion=0x0100",
