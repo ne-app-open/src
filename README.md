@@ -33,7 +33,7 @@ You will need
 curl -fsSL http://install.nekernel.org | sh
 ```
 
-## On the primers
+## On the Primers
 
 The primers are available at:
 
@@ -42,7 +42,7 @@ The primers are available at:
 
 Designed to be make onboarding easier.
 
-## Design rationale
+## Design Rationale
 
 There is three main reasons for this repository's existence:
 
@@ -50,12 +50,8 @@ There is three main reasons for this repository's existence:
 - Easier path resolutions based on a virtual root path, i.e (../krnl -> /private/src/krnl)
 - Easier cycles and vetting for Ne.app releases.
 
-## Packaging
+## User Groups
 
-We plan to host a package registry for NeSystem and ANT. Stay tuned!
+Ne.app has a user group on [discord](https://discord.gg/uD76Qweght) for contributors and announcements.
 
-## Community
-
-Ne.app has a community [discord](https://discord.gg/uD76Qweght) for contributors and announcements.
-
-###### Copyright 2022-2026, Amlal El Mahrouss and Ne.app. Licensed under Apache 2.0.
+###### Copyright 2022-2026, Ne.app. Licensed under Apache 2.0.

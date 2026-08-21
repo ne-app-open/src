@@ -5,6 +5,7 @@
 
 #pragma once
 
+#include "SystemKit/Macros.h"
 #ifndef __ne_arch
 #define __ne_arch (0xdeadbeef)
 #warning !! __ne_arch is not defined, set __ne_arch as a warning value. !!
@@ -22,16 +23,14 @@
 #ifdef __cplusplus
 #include <CoreFoundation/headers/Foundation.h>
 #include <DiskImage/headers/DiskImage.h>
-#include <LaunchHelpers/headers/Foundation.h>
 #include <KernelTest/headers/Foundation.h>
-//#include <HostHelpers/headers/Foundation.h>
-//#include <AppFoundation/headers/Foundation.h>
+#include <LaunchHelpers/headers/Foundation.h>
 #endif
 
-#include <POSIXKit/unistd.h>
 #include <MsgKit/Server.h>
-#include <SystemKit/System.h>
+#include <POSIXKit/unistd.h>
 #include <PThreadKit/pthread.h>
+#include <SystemKit/System.h>
 #include <ThreadKit/Thread.h>
 
 #ifndef _SHARED
@@ -56,11 +55,13 @@
 
 /// @brief The Subsystem Information for Program Loader.
 struct _SHARED SUBSYSTEM_INFO_MANIFEST _FINAL {
-	SInt32 fMagic;
-	SInt32 fSubsystemTarget;
-	SInt32 fVersion, fFlags, fImageKind;
-	Char fName[FILE_MAX_LEN];
-	SizeT fNameSz;
+  SInt32 fMagic;
+  SInt32 fSubsystemTarget;
+  SInt32 fVersion, fFlags, fImageKind;
+  Char   fName[FILE_MAX_LEN];
+  SizeT  fNameSz;
+  Char   fRootPath[FILE_MAX_LEN];
+  SizeT  fRootPathSz;
 };
 
 #ifndef SUBSYSTEM_INVALID_TARGET
@@ -69,4 +70,12 @@ struct _SHARED SUBSYSTEM_INFO_MANIFEST _FINAL {
 
 #ifndef SUBSYSTEM_POSIX_TARGET
 #define SUBSYSTEM_POSIX_TARGET (0x100)
+#endif
+
+#ifndef SUBSYSTEM_NESYSTEM_TARGET
+#define SUBSYSTEM_NESYSTEM_TARGET (SUBSYSTEM_POSIX_TARGET + 1)
+#endif
+
+#ifndef SUBSYSTEM_WINE_TARGET
+#define SUBSYSTEM_WINE_TARGET (SUBSYSTEM_POSIX_TARGET + 2)
 #endif
