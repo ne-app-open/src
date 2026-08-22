@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: Apache-2.0
-// Copyright 2026, Amlal El Mahrouss (amlal@nekernel.org)
+// Copyright 2026, Amlal El Mahrouss and Ne.app (amlal@nekernel.org)
 // Licensed under the Apache License, Version 2.0 (see LICENSE file)
 // Official repository: https://github.com/ne-app-eu/src
 
-#include <SystemKit/System.h>
 #include <SystemKit/Err.h>
+#include <SystemKit/System.h>
 
 IMPORT_C SInt32 BsiInstallHost(SInt32, Char**);
 
