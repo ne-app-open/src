@@ -4,8 +4,8 @@
   "headers_path": [
     "../",
     "./",
-    "../../../../nekrnl/private",
-    "../../../../nekrnl/private/libSystem",
+    "../../../../krnl/private",
+    "../../../../krnl/private/libSystem",
     "../../../public/"
   ],
   "sources_path": [
