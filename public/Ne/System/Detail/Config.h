@@ -5,7 +5,6 @@
 
 #pragma once
 
-#include "SystemKit/Macros.h"
 #ifndef __ne_arch
 #define __ne_arch (0xdeadbeef)
 #warning !! __ne_arch is not defined, set __ne_arch as a warning value. !!
