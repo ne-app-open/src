@@ -3,12 +3,7 @@
 // Licensed under the Apache License, Version 2.0 (see LICENSE file)
 // Official repository: https://github.com/ne-app-eu/src
 
-#include <PosixSrvKit/Defines.h>
+#pragma once
 
-SInt32 main(SInt32 argc, Char** argv) {
-  LIBSYS_UNUSED(argc);
-  LIBSYS_UNUSED(argv);
-
-  auto ret = kErrorSuccess;
-  return ret;
-}
+#include <SystemKit/System.h>
+#include <SystemKit/Err.h>
