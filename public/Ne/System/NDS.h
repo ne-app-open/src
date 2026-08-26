@@ -11,7 +11,7 @@
 
 /// ===============================
 /// @name Network Drive Subsystem.
-/// @brief Network Drive Mgmt and Delta transfer subsystem.
+/// @brief Network Drive Mgmt and Delta transfer Subsystem.
 /// ===============================
 
 #include <Ne/System/Detail/Config.h>

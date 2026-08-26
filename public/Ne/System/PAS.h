@@ -28,9 +28,9 @@
 
 /// @param sz size of block.
 /// @param flags flags of block.
-IMPORT_C VoidPtr CasSbrk(SizeT sz, SInt32 flags);
+IMPORT_C VoidPtr PasSbrk(SizeT sz, SInt32 flags);
 
 /// @param zero_out shall we zero-out the block after it being freed?
-IMPORT_C Void CasSbrkDestroy(VoidPtr, SInt32 zero_out);
+IMPORT_C Void PasSbrkDestroy(VoidPtr, SInt32 zero_out);
 
 #endif
