@@ -9,6 +9,8 @@
 
 IMPORT_C SInt32 BsiInstallHost(SInt32 argc, Char** argv)
 {
+    if (!argc || !argv) return kErrorExecutable;
+
     if (nesys_syscall_arg_1(nesys_hash_64("RtlBsiInstallHostBeginSection")) != nullptr) {
         nesys_syscall_arg_3(nesys_hash_64("RtlBsiInstallHostPushArgs"), &argc, argv);
         if (nesys_syscall_arg_1(nesys_hash_64("RtlBsiInstallHostEndSection")) != nullptr) {
