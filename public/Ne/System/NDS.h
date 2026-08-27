@@ -9,10 +9,10 @@
 #define _NDS (202608L)
 #endif
 
-/// ===============================
+/// =======================================================
 /// @name Network Drive Subsystem.
 /// @brief Network Drive Mgmt and Delta transfer Subsystem.
-/// ===============================
+/// =======================================================
 
 #include <Ne/System/Detail/Config.h>
 #include <Ne/System/CAS.h>

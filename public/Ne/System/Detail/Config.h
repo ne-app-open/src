@@ -7,7 +7,7 @@
 
 #ifndef __ne_arch
 #define __ne_arch (0xdeadbeef)
-#warning !! __ne_arch is not defined, set __ne_arch as a warning value. !!
+#warning !! __ne_arch is not defined, setting __ne_arch as a warning value. !!
 #endif
 
 #define _ARCH __ne_arch
@@ -77,4 +77,8 @@ struct _SHARED SUBSYSTEM_INFO_MANIFEST _FINAL {
 
 #ifndef SUBSYSTEM_WINE_TARGET
 #define SUBSYSTEM_WINE_TARGET (SUBSYSTEM_POSIX_TARGET + 2)
+#endif
+
+#ifndef SUBSYSTEM_ANT_TARGET
+#define SUBSYSTEM_ANT_TARGET (SUBSYSTEM_POSIX_TARGET + 3)
 #endif
