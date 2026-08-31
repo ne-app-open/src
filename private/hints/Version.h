@@ -8,7 +8,7 @@
 
 #define USR_VERSION "v1.1.4-nesystem"
 
-#define USR_EDITION "NeSystem OS Userspace (Standard Edition)"
+#define USR_EDITION "NeSystem OS Userspace"
 
 #define USR_VERSION_BCD (0x1104)
 #define USR_VERSION_RSRC 1,1,4,0
