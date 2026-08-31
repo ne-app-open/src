@@ -9,6 +9,7 @@
 #define kDbgHostServiceLoopName "_DbgHostServiceLoop"
 #endif
 
+#ifdef __x86_64__
 _SHARED ATTRIBUTE(naked)
 Void    dbgi_trap_hang(Void) {
   asm __volatile("__dbgi_trap_hang_loop: jmp __dbgi_trap_hang_loop;");
@@ -17,6 +18,9 @@ _SHARED ATTRIBUTE(naked)
 SInt32  dbgi_trap_break(Void) {
   asm __volatile("ret");
 }
+#else
+#warning !! Trap breaks are undefined !!
+#endif
 
 enum {
   DBG_VKEY_BREAK,
@@ -31,6 +35,11 @@ SInt32 main(SInt32 argc, Char** argv) {
            "Ne.app Debug Host Service, Copyright 2026 Ne.app, all rights reserved.\r");
 
   kDbgHost = (struct DBG_HOST*) MmCreateHeap(sizeof(struct DBG_HOST), 0);
+
+#ifdef _DEBUG
+  MUST_PASS(kDbgHost);
+#endif
+
   if (!kDbgHost) return kDbgSignal;
 
   while (kDbgHostEnabled) {
