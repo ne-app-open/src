@@ -25,11 +25,13 @@
 /// @param flags flags of block.
 IMPORT_C VoidPtr CasAllocateHeap(SizeT sz, SInt32 flags);
 
+/// @brief Allocate heap block with additional parameter.
 IMPORT_C VoidPtr CasAllocateHeapII(SizeT sz, SInt32 flags, SInt32);
 
-IMPORT_C Void CasDestroyHeap(VoidPtr, SInt32 zero_out);
+/// @brief Destroy heap block.
+IMPORT_C Void CasDestroyHeap(_InOut VoidPtr, SInt32 zero_out);
 
 /// @param zero_out shall we zero-out the block after it being freed?
-IMPORT_C Void CasDestroyHeapII(VoidPtr, SInt32 zero_out, SizeT zero_out_len);
+IMPORT_C Void CasDestroyHeapII(_InOut VoidPtr, SInt32 zero_out, SizeT zero_out_len);
 
 #endif // _NE_CORE_SUBSYSTEM_H_
