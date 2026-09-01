@@ -94,7 +94,7 @@ IMPORT_C Void SubsystemInfoManifestInitII(_Output SUBSYSTEM_INFO_MANIFEST* manif
                                           _Input SizeT name_sz, _Input Char* root_path,
                                           _Input SizeT root_path_sz);
 
-IMPORT_C SInt32 SubsystemInfoManifestValidate(_In SUBSYSTEM_INFO_MANIFEST* manifest_in);
+IMPORT_C SInt32 SubsystemInfoManifestValidate(_Input SUBSYSTEM_INFO_MANIFEST* manifest_in);
 
 IMPORT_C Void SubsystemInfoManifestSetName(_InOut SUBSYSTEM_INFO_MANIFEST* manifest_in,
                                            _Input Char* name, _Input SizeT name_sz);
