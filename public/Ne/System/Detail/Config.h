@@ -82,3 +82,24 @@ struct _SHARED SUBSYSTEM_INFO_MANIFEST _FINAL {
 #ifndef SUBSYSTEM_ANT_TARGET
 #define SUBSYSTEM_ANT_TARGET (SUBSYSTEM_POSIX_TARGET + 3)
 #endif
+
+IMPORT_C Void SubsystemInfoManifestInit(_InOut SUBSYSTEM_INFO_MANIFEST* manifest_in,
+                                        _Input SizeT                    in);
+
+
+IMPORT_C Void SubsystemInfoManifestInitII(_Output SUBSYSTEM_INFO_MANIFEST* manifest_in,
+                                          _Input SizeT in, _Input SInt32 target,
+                                          _Input SInt32 version, _Input SInt32 flags,
+                                          _Input SInt32 image_kind, _Input Char* name,
+                                          _Input SizeT name_sz, _Input Char* root_path,
+                                          _Input SizeT root_path_sz);
+
+IMPORT_C SInt32 SubsystemInfoManifestValidate(_In SUBSYSTEM_INFO_MANIFEST* manifest_in);
+
+IMPORT_C Void SubsystemInfoManifestSetName(_InOut SUBSYSTEM_INFO_MANIFEST* manifest_in,
+                                           _Input Char* name, _Input SizeT name_sz);
+
+IMPORT_C Void SubsystemInfoManifestSetRootPath(_InOut SUBSYSTEM_INFO_MANIFEST* manifest_in,
+                                               _Input Char* root_path, _Input SizeT root_path_sz);
+
+IMPORT_C Void SubsystemInfoTerminate(_InOut SUBSYSTEM_INFO_MANIFEST* manifest_in);
