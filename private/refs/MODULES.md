@@ -8,8 +8,8 @@ Run ./tools/updater.py instead! You might be missing updated modules first.
 
 ## Abstract:
 
-- `kernel`: The NeKernel System Module.
-- `nectar`: The Nectar Toolchain/PL Module.
-- `boot`: The NeBoot Firmware Module.
+- `krnl`: The Ne.app Kernel System Module.
+- `ncc`: The NCC Toolchain/PL Module.
+- `boot`: The NextBoot BCSA Firmware Module.
 - `nebuild`: The NeBuild Build System Module.
 
