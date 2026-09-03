@@ -17,7 +17,10 @@
 #define _SUBSYSTEM_SYS 0x1000
 
 #define _NE_SYSTEM (202605L)
-#define _NEKERNEL (202605L)
+
+#ifndef _NEKERNEL
+#define _NEKERNEL 202609L
+#endif
 
 #ifdef __cplusplus
 #include <CoreFoundation/headers/Foundation.h>
