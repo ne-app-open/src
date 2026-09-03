@@ -12,7 +12,9 @@
 #define _SUBSYSTEM_DDK 0x1000
 #define _SUBSYSTEM_SYS 0x1000
 
-#define _NEKERNEL 202603L
+#ifndef _NEKERNEL
+#define _NEKERNEL 202609L
+#endif
 
 #include <DriverKit/DriverKit.h>
 
