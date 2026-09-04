@@ -14,6 +14,7 @@ PROFILE=release-efi-pc
 SRC=src
 KRNL=krnl
 NEBUILD=bld
+NCC=ncc
 FLAGS=clone
 DIST=src-${ARCH}-${PROFILE}
 GIT=git
@@ -23,6 +24,7 @@ mkdir ${DIST}
 ${GIT} ${FLAGS} https://github.com/ne-app-open/${SRC}.git ${DIST}/${SRC}
 ${GIT} ${FLAGS} https://github.com/ne-app-open/${KRNL}.git ${DIST}/${KRNL}
 ${GIT} ${FLAGS} https://github.com/ne-app-open/${NEBUILD}.git ${DIST}/${NEBUILD}
+${GIT} ${FLAGS} https://github.com/ne-app-open/${NCC}.git --branch stable ${DIST}/${NCC}
 
 cd ${DIST}
 

@@ -27,15 +27,6 @@ struct _SHARED LHANDLE _FINAL {
   Char    fPad2[8];
 };
 
-/// @brief Is Virtual Key Up?
-SInt32 UsrGetVKeyUp(Void);
-
-/// @brief Is Virtual Key Down?
-SInt32 UsrGetVKeyDown(Void);
-
-/// @brief Is Virtual Key?
-Bool   UsrIsVKey(Void);
-
 typedef enum {
   /* Alphabetic */
   LWAS_VKEY_A,
@@ -162,5 +153,14 @@ typedef enum {
 
 IMPORT_C struct LHANDLE* UsrCreateWindow(VoidPtr, SizeT*);
 IMPORT_C Void UsrDestroyWindow(struct LHANDLE*);
+
+/// @brief Is Virtual Key Up?
+IMPORT_C SInt32 UsrGetVKeyUp(Void);
+
+/// @brief Is Virtual Key Down?
+IMPORT_C SInt32 UsrGetVKeyDown(Void);
+
+/// @brief Is Virtual Key?
+IMPORT_C Bool   UsrIsVKey(Void);
 
 #endif  // _NE_LWAS_SUBSYSTEM_H_
