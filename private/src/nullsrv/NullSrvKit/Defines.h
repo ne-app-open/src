@@ -7,3 +7,4 @@
 
 #include <SystemKit/System.h>
 #include <SystemKit/Err.h>
+#include <Ne/System/CAS.h>
